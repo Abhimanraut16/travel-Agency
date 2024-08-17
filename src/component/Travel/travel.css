@@ -1,0 +1,371 @@
+section .header .travel-cout {
+  width: 100%;
+  height: 81vh;
+}
+section .header .travel-cout .containers .travelCount {
+  width: 100%;
+}
+section .header .travel-cout .containers .travelCount .travelDestination {
+  height: 100vh;
+  display: flex;
+  right: 15px;
+  gap: 15px;
+}
+section .header .travel-cout .containers .travelCount .travelDestination .righttravel {
+  width: 50%;
+  height: 80vh;
+}
+section .header .travel-cout .containers .travelCount .travelDestination .righttravel .maincount {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+section .header .travel-cout .containers .travelCount .travelDestination .righttravel .maincount .main {
+  width: 150px;
+  border: 1px rgb(212, 209, 209) solid;
+  height: 140px;
+  box-shadow: rgba(40, 39, 39, 0.35) 0px 5px 15px;
+}
+section .header .travel-cout .containers .travelCount .travelDestination .righttravel .maincount .main .costom {
+  padding-top: 30px;
+  width: 100%;
+  height: 100%;
+}
+section .header .travel-cout .containers .travelCount .travelDestination .righttravel .maincount .main .costom .image {
+  width: 50px;
+  padding-bottom: 4px;
+}
+section .header .travel-cout .containers .travelCount .travelDestination .righttravel .maincount .main .costom .image img {
+  margin: 0 0 0 50px;
+}
+section .header .travel-cout .containers .travelCount .travelDestination .righttravel .maincount .main .costom p {
+  height: 50px;
+  width: 150px;
+  text-align: center;
+  font-weight: 600;
+}
+section .header .travel-cout .containers .travelCount .travelDestination .lafttravel {
+  width: 50%;
+  height: 60vh;
+}
+section .header .travel-cout .containers .travelCount .travelDestination .lafttravel .image {
+  width: 500px;
+  height: 55vh;
+}
+section .header .travel-cout .containers .travelCount .travelDestination .lafttravel .image img {
+  width: 100%;
+  height: 100%;
+}
+
+@media (max-width: 640px) {
+  .travel-cout {
+    width: 100%;
+    margin-top: 850px !important;
+  }
+  .travel-cout .paragraph {
+    width: 100%;
+    text-align: center;
+  }
+  .travel-cout .paragraph p {
+    width: 80%;
+    margin-left: 40px !important;
+    margin-top: 20px;
+  }
+  .travel-cout .containers {
+    width: 100%;
+  }
+  .travel-cout .containers .travelCount .travelDestination {
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+    margin-top: 30px;
+  }
+  .travel-cout .containers .travelCount .travelDestination .righttravel {
+    width: 550px !important;
+  }
+  .travel-cout .containers .travelCount .travelDestination .righttravel .maincount .main {
+    width: 100%;
+    position: relative;
+    left: 60px;
+  }
+  .travel-cout .containers .travelCount .travelDestination .righttravel .maincount .learn {
+    margin-left: 70px;
+    width: 300px;
+  }
+  .travel-cout .containers .travelCount .travelDestination .righttravel .maincount .learn .btn {
+    width: 100%;
+    margin-left: 70px;
+  }
+  .travel-cout .containers .travelCount .travelDestination .lafttravel {
+    width: 100%;
+    margin-left: 35px !important;
+    margin-top: 30px;
+  }
+  .travel-cout .containers .travelCount .travelDestination .lafttravel .image {
+    width: 520px !important;
+  }
+}
+@media (max-width: 550px) {
+  .travel-cout .containers .travelCount .travelDestination .lafttravel .image {
+    width: 500px !important;
+  }
+}
+@media (max-width: 750px) {
+  .travel-cout {
+    width: 100%;
+    margin-top: 890px !important;
+  }
+  .travel-cout .paragraph {
+    width: 100%;
+    text-align: center;
+    margin-top: 900px;
+  }
+  .travel-cout .paragraph p {
+    width: 80%;
+    margin-left: 70px !important;
+    margin-top: 20px;
+  }
+  .travel-cout .containers {
+    width: 100%;
+  }
+  .travel-cout .containers .travelCount .travelDestination {
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+    margin-top: 30px;
+  }
+  .travel-cout .containers .travelCount .travelDestination .righttravel {
+    width: 550px !important;
+  }
+  .travel-cout .containers .travelCount .travelDestination .righttravel .maincount .main {
+    width: 100%;
+    position: relative;
+    left: 130px;
+  }
+  .travel-cout .containers .travelCount .travelDestination .righttravel .maincount .learn {
+    margin-left: 130px;
+    width: 300px;
+  }
+  .travel-cout .containers .travelCount .travelDestination .righttravel .maincount .learn .btn {
+    width: 100%;
+    margin-left: 70px;
+  }
+  .travel-cout .containers .travelCount .travelDestination .lafttravel {
+    width: 100%;
+    margin-left: 130px !important;
+    margin-top: 30px;
+  }
+  .travel-cout .containers .travelCount .travelDestination .lafttravel .image {
+    width: 470px !important;
+  }
+}
+@media (max-width: 850px) {
+  .travel-cout {
+    width: 100%;
+    margin-top: 150px !important;
+  }
+  .travel-cout .paragraph {
+    width: 100%;
+    text-align: center;
+  }
+  .travel-cout .paragraph p {
+    width: 80%;
+    margin-left: 70px !important;
+    margin-top: 20px;
+  }
+  .travel-cout .containers {
+    width: 100%;
+  }
+  .travel-cout .containers .travelCount .travelDestination {
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+    margin-top: 30px;
+  }
+  .travel-cout .containers .travelCount .travelDestination .righttravel {
+    width: 600px !important;
+    padding: 0px 20px;
+  }
+  .travel-cout .containers .travelCount .travelDestination .righttravel .maincount .main {
+    width: 100%;
+    position: relative;
+    left: 130px;
+  }
+  .travel-cout .containers .travelCount .travelDestination .righttravel .maincount .learn {
+    width: 500px !important;
+    margin-left: 110px;
+    width: 300px;
+  }
+  .travel-cout .containers .travelCount .travelDestination .righttravel .maincount .learn .btn {
+    width: 100%;
+    margin-left: 30px;
+  }
+  .travel-cout .containers .travelCount .travelDestination .lafttravel {
+    width: 100%;
+    margin-left: 130px !important;
+    margin-top: 30px;
+  }
+  .travel-cout .containers .travelCount .travelDestination .lafttravel .image {
+    width: 560px !important;
+    height: 180px !important;
+    position: relative;
+    right: 20px;
+  }
+}
+@media (max-width: 970px) {
+  .travel-cout {
+    width: 100%;
+    margin-top: 150px !important;
+  }
+  .travel-cout .containers {
+    width: 100%;
+  }
+  .travel-cout .containers .travelCount .travelDestination {
+    width: 100%;
+    height: 100vh;
+    margin-top: 10px;
+  }
+  .travel-cout .containers .travelCount .travelDestination .righttravel {
+    width: 630px !important;
+  }
+  .travel-cout .containers .travelCount .travelDestination .righttravel .maincount .main {
+    width: 100%;
+    position: relative;
+  }
+  .travel-cout .containers .travelCount .travelDestination .righttravel .maincount .learn {
+    width: 650px !important;
+  }
+  .travel-cout .containers .travelCount .travelDestination .righttravel .maincount .learn .btn {
+    width: 100%;
+  }
+  .travel-cout .containers .travelCount .travelDestination .lafttravel {
+    width: 100%;
+  }
+  .travel-cout .containers .travelCount .travelDestination .lafttravel .image {
+    width: 360px !important;
+    height: 290px !important;
+    position: relative;
+    right: 100px;
+  }
+  .travel-cout .containers .travelCount .travelDestination .lafttravel .image img {
+    width: 100%;
+    height: 100%;
+  }
+}
+@media (max-width: 1080px) {
+  .travel-cout {
+    width: 100%;
+    margin-top: 200px !important;
+  }
+  .travel-cout .containers {
+    width: 100%;
+  }
+  .travel-cout .containers .travelCount .travelDestination {
+    width: 100%;
+    height: 100vh;
+  }
+  .travel-cout .containers .travelCount .travelDestination .righttravel {
+    width: 630px !important;
+  }
+  .travel-cout .containers .travelCount .travelDestination .righttravel .maincount .main {
+    width: 100%;
+    position: relative;
+  }
+  .travel-cout .containers .travelCount .travelDestination .righttravel .maincount .learn {
+    width: 650px !important;
+  }
+  .travel-cout .containers .travelCount .travelDestination .righttravel .maincount .learn .btn {
+    width: 100%;
+  }
+  .travel-cout .containers .travelCount .travelDestination .lafttravel {
+    width: 100%;
+  }
+  .travel-cout .containers .travelCount .travelDestination .lafttravel .image {
+    width: 380px !important;
+    height: 290px !important;
+    position: relative;
+    right: 150px;
+  }
+  .travel-cout .containers .travelCount .travelDestination .lafttravel .image img {
+    width: 100%;
+    height: 100%;
+  }
+}
+@media (max-width: 1150px) {
+  .travel-cout {
+    width: 100%;
+    margin-top: 200px !important;
+  }
+  .travel-cout .containers {
+    width: 100%;
+  }
+  .travel-cout .containers .travelCount .travelDestination {
+    width: 100%;
+    height: 100vh;
+  }
+  .travel-cout .containers .travelCount .travelDestination .righttravel {
+    width: 630px !important;
+  }
+  .travel-cout .containers .travelCount .travelDestination .righttravel .maincount .main {
+    width: 100%;
+    position: relative;
+  }
+  .travel-cout .containers .travelCount .travelDestination .righttravel .maincount .learn {
+    width: 650px !important;
+  }
+  .travel-cout .containers .travelCount .travelDestination .righttravel .maincount .learn .btn {
+    width: 100%;
+  }
+  .travel-cout .containers .travelCount .travelDestination .lafttravel {
+    width: 100%;
+  }
+  .travel-cout .containers .travelCount .travelDestination .lafttravel .image {
+    width: 488px !important;
+    height: 290px !important;
+    position: relative;
+    right: 150px;
+  }
+  .travel-cout .containers .travelCount .travelDestination .lafttravel .image img {
+    width: 100%;
+    height: 100%;
+  }
+}
+@media (max-width: 1250px) {
+  .travel-cout {
+    width: 100%;
+    margin-top: 200px !important;
+  }
+  .travel-cout .containers {
+    width: 100%;
+  }
+  .travel-cout .containers .travelCount .travelDestination {
+    width: 100%;
+    height: 100vh;
+  }
+  .travel-cout .containers .travelCount .travelDestination .righttravel {
+    width: 630px !important;
+  }
+  .travel-cout .containers .travelCount .travelDestination .righttravel .maincount .main {
+    width: 100%;
+    position: relative;
+  }
+  .travel-cout .containers .travelCount .travelDestination .righttravel .maincount .learn {
+    width: 650px !important;
+  }
+  .travel-cout .containers .travelCount .travelDestination .righttravel .maincount .learn .btn {
+    width: 100%;
+  }
+  .travel-cout .containers .travelCount .travelDestination .lafttravel {
+    width: 100%;
+  }
+  .travel-cout .containers .travelCount .travelDestination .lafttravel .image {
+    width: 488px !important;
+    height: 290px !important;
+    position: relative;
+    right: 150px;
+  }
+  .travel-cout .containers .travelCount .travelDestination .lafttravel .image img {
+    width: 100%;
+    height: 100%;
+  }
+}/*# sourceMappingURL=travel.css.map */

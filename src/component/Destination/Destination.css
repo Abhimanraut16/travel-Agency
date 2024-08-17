@@ -1,0 +1,425 @@
+section .header .header-cout {
+  width: 100%;
+  height: 100vh;
+  margin-top: 100px;
+}
+section .header .header-cout p {
+  width: 70%;
+  height: 50px;
+  margin-left: 10PX;
+}
+section .header .header-cout .paragraph h2 {
+  margin-left: 10PX;
+}
+section .header .header-cout .containers .citiesCount {
+  width: 100%;
+}
+section .header .header-cout .containers .citiesCount .citieDestination {
+  height: 85vh !important;
+  display: flex;
+  position: relative;
+  gap: 15px;
+}
+section .header .header-cout .containers .citiesCount .citieDestination .rightDestination {
+  width: 35%;
+  height: 75vh;
+  position: relative;
+}
+section .header .header-cout .containers .citiesCount .citieDestination .rightDestination .image {
+  cursor: pointer;
+  height: 75vh;
+}
+section .header .header-cout .containers .citiesCount .citieDestination .rightDestination .image img {
+  width: 100%;
+  height: 100%;
+}
+section .header .header-cout .containers .citiesCount .citieDestination .rightDestination .title {
+  bottom: 15px;
+  width: 200px;
+  position: absolute;
+  color: #fff;
+  padding-left: 20px;
+}
+section .header .header-cout .containers .citiesCount .citieDestination .laftDestination {
+  width: 65%;
+  height: 85vh;
+}
+section .header .header-cout .containers .citiesCount .citieDestination .laftDestination .laftDestinationside {
+  display: flex;
+  width: 100%;
+  gap: 15px;
+  position: relative;
+}
+section .header .header-cout .containers .citiesCount .citieDestination .laftDestination .laftDestinationside .laftDestinationTop {
+  width: 100%;
+  height: auto;
+}
+section .header .header-cout .containers .citiesCount .citieDestination .laftDestination .laftDestinationside .laftDestinationTop .image {
+  cursor: pointer;
+}
+section .header .header-cout .containers .citiesCount .citieDestination .laftDestination .laftDestinationside .laftDestinationTop .image img {
+  width: 100%;
+  height: 100%;
+}
+section .header .header-cout .containers .citiesCount .citieDestination .laftDestination .laftDestinationside .laftDestinationTop .title {
+  bottom: 15px;
+  width: 200px;
+  position: absolute;
+  color: #fff;
+  padding-left: 20px;
+}
+section .header .header-cout .containers .citiesCount .citieDestination .laftDestination .DestinationBut {
+  width: 100%;
+  position: relative;
+  height: 40vh;
+  padding: 6px 0px;
+}
+section .header .header-cout .containers .citiesCount .citieDestination .laftDestination .DestinationBut .image {
+  width: 650px;
+  height: 235px;
+  margin-top: 6px;
+  cursor: pointer;
+}
+section .header .header-cout .containers .citiesCount .citieDestination .laftDestination .DestinationBut .image img {
+  width: 100%;
+  height: 100%;
+}
+section .header .header-cout .containers .citiesCount .citieDestination .laftDestination .DestinationBut .title {
+  position: absolute;
+  bottom: 15px;
+  color: #fff;
+  padding-left: 20px;
+  width: 200px;
+}
+
+@media (max-width: 640px) {
+  .header-cout {
+    margin-top: 10rem !important;
+  }
+  .header-cout .paragraph {
+    width: 100%;
+    text-align: center;
+  }
+  .header-cout .paragraph p {
+    margin-left: 85px !important;
+    margin-top: 20px;
+  }
+  .header-cout .containers .citiesCount .citieDestination {
+    flex-direction: column;
+    margin-left: 40px;
+  }
+  .header-cout .containers .citiesCount .citieDestination .rightDestination {
+    width: 100%;
+    margin-top: 20px;
+  }
+  .header-cout .containers .citiesCount .citieDestination .rightDestination .image {
+    width: 530px !important;
+    height: 500px !important;
+    position: relative;
+    right: 25px;
+  }
+  .header-cout .containers .citiesCount .citieDestination .rightDestination .image img {
+    width: 100%;
+  }
+  .header-cout .containers .citiesCount .citieDestination .laftDestination .laftDestinationside .laftDestinationTop {
+    width: 100%;
+    margin-top: 50px;
+  }
+  .header-cout .containers .citiesCount .citieDestination .laftDestination .laftDestinationside .laftDestinationTop .image {
+    width: 250px !important;
+    margin-top: 150px;
+    text-align: center;
+    height: 300px;
+    position: relative;
+    right: 50px;
+  }
+  .header-cout .containers .citiesCount .citieDestination .laftDestination .laftDestinationside .laftDestinationTop .image img {
+    width: 100%;
+  }
+  .header-cout .containers .citiesCount .citieDestination .laftDestination .DestinationBut .image {
+    width: 300px !important;
+    margin-top: 120px;
+    height: 300px;
+    position: relative;
+    right: 120px;
+  }
+  .header-cout .containers .citiesCount .citieDestination .laftDestination .DestinationBut .image img {
+    width: 100%;
+  }
+}
+@media (max-width: 750px) {
+  .header-cout .paragraph {
+    width: 100%;
+    text-align: center;
+  }
+  .header-cout .paragraph p {
+    margin-left: 85px !important;
+    margin-top: 20px;
+  }
+  .header-cout .containers .citiesCount .citieDestination {
+    flex-direction: column;
+    margin-left: 100px;
+  }
+  .header-cout .containers .citiesCount .citieDestination .rightDestination {
+    width: 100%;
+    margin-top: 20px;
+    position: absolute;
+    height: 100%;
+    border: red solid 1px !important;
+  }
+  .header-cout .containers .citiesCount .citieDestination .rightDestination .image {
+    width: 600px !important;
+    height: 500px !important;
+  }
+  .header-cout .containers .citiesCount .citieDestination .rightDestination .image img {
+    width: 100%;
+  }
+  .header-cout .containers .citiesCount .citieDestination .rightDestination .title {
+    width: 100px;
+    position: relative;
+    top: 20px;
+    left: 10px;
+    margin-top: 20px !important;
+  }
+  .header-cout .containers .citiesCount .citieDestination .laftDestination .laftDestinationside .laftDestinationTop {
+    width: 100%;
+    margin-top: 50px;
+    border: 1px red solid;
+  }
+  .header-cout .containers .citiesCount .citieDestination .laftDestination .laftDestinationside .laftDestinationTop .image {
+    border: 1px red solid;
+    width: 270px;
+    margin-top: 150px;
+    text-align: center;
+    height: 300px;
+    position: relative;
+    right: 40px;
+  }
+  .header-cout .containers .citiesCount .citieDestination .laftDestination .laftDestinationside .laftDestinationTop .image img {
+    width: 100%;
+  }
+  .header-cout .containers .citiesCount .citieDestination .laftDestination .DestinationBut {
+    width: 100%;
+  }
+  .header-cout .containers .citiesCount .citieDestination .laftDestination .DestinationBut .image {
+    width: 555px !important;
+    margin-top: 120px;
+    height: 320px !important;
+    position: relative;
+    right: 40px;
+  }
+  .header-cout .containers .citiesCount .citieDestination .laftDestination .DestinationBut .image img {
+    width: 100%;
+  }
+}
+@media (max-width: 850px) {
+  .header-cout .containers .citiesCount .citieDestination {
+    margin-top: 50px;
+  }
+  .header-cout .containers .citiesCount .citieDestination .rightDestination {
+    width: 100%;
+    height: 100%;
+  }
+  .header-cout .containers .citiesCount .citieDestination .rightDestination .image {
+    width: 300px !important;
+    height: 450px !important;
+  }
+  .header-cout .containers .citiesCount .citieDestination .rightDestination .image img {
+    height: 100%;
+  }
+  .header-cout .containers .citiesCount .citieDestination .rightDestination .title {
+    width: 100px;
+    position: relative;
+    top: 20px;
+    right: 70px;
+    font-size: 10px;
+    margin-top: 20px !important;
+  }
+  .header-cout .containers .citiesCount .citieDestination .laftDestination .DestinationBut {
+    width: 100%;
+  }
+  .header-cout .containers .citiesCount .citieDestination .laftDestination .DestinationBut .image {
+    width: 500px !important;
+    margin-top: 120px;
+    height: 280px !important;
+  }
+  .header-cout .containers .citiesCount .citieDestination .laftDestination .DestinationBut .image img {
+    width: 100%;
+  }
+}
+@media (max-width: 970px) {
+  .header-cout .containers .citiesCount .citieDestination {
+    margin-top: 40px;
+    margin-right: 100px;
+  }
+  .header-cout .containers .citiesCount .citieDestination .rightDestination {
+    width: 100%;
+    position: absolute;
+    height: 100%;
+  }
+  .header-cout .containers .citiesCount .citieDestination .rightDestination .image {
+    width: 300px;
+    height: 400px !important;
+  }
+  .header-cout .containers .citiesCount .citieDestination .rightDestination .image img {
+    height: 100%;
+  }
+  .header-cout .containers .citiesCount .citieDestination .rightDestination .title {
+    width: 100px;
+    position: relative;
+    top: 20px;
+    right: 70px;
+    font-size: 10px;
+    margin-top: 20px !important;
+  }
+  .header-cout .containers .citiesCount .citieDestination .laftDestination .laftDestinationside .laftDestinationTop {
+    width: 600px;
+  }
+  .header-cout .containers .citiesCount .citieDestination .laftDestination .laftDestinationside .laftDestinationTop .image {
+    width: 280px !important;
+    height: 200px !important;
+  }
+  .header-cout .containers .citiesCount .citieDestination .laftDestination .laftDestinationside .laftDestinationTop .image img {
+    width: 100%;
+    position: relative;
+    right: 10px;
+  }
+  .header-cout .containers .citiesCount .citieDestination .laftDestination .DestinationBut {
+    width: 580px !important;
+  }
+  .header-cout .containers .citiesCount .citieDestination .laftDestination .DestinationBut .image {
+    width: 300px !important;
+    margin-top: 120px;
+    height: 255px !important;
+    position: relative;
+    right: 30px;
+    bottom: 10px;
+    padding: 15px;
+  }
+  .header-cout .containers .citiesCount .citieDestination .laftDestination .DestinationBut .image img {
+    width: 100%;
+  }
+}
+@media (max-width: 1080px) {
+  .header-cout .containers .citiesCount .citieDestination .rightDestination {
+    width: 100%;
+    height: 100%;
+  }
+  .header-cout .containers .citiesCount .citieDestination .rightDestination .image {
+    height: 455px !important;
+  }
+  .header-cout .containers .citiesCount .citieDestination .rightDestination .image img {
+    height: 100%;
+  }
+  .header-cout .containers .citiesCount .citieDestination .rightDestination .title {
+    width: 100px;
+    position: relative;
+    top: 20px;
+    right: 70px;
+    font-size: 10px;
+    margin-top: 20px !important;
+  }
+  .header-cout .containers .citiesCount .citieDestination .laftDestination .laftDestinationside .laftDestinationTop .image {
+    width: 285px;
+  }
+  .header-cout .containers .citiesCount .citieDestination .laftDestination .laftDestinationside .laftDestinationTop .image img {
+    width: 100%;
+  }
+  .header-cout .containers .citiesCount .citieDestination .laftDestination .DestinationBut {
+    width: 100%;
+  }
+  .header-cout .containers .citiesCount .citieDestination .laftDestination .DestinationBut .image {
+    width: 585px !important;
+    margin-top: 120px;
+    height: 255px !important;
+  }
+  .header-cout .containers .citiesCount .citieDestination .laftDestination .DestinationBut .image img {
+    width: 100%;
+  }
+}
+@media (max-width: 1150px) {
+  .header-cout .containers .citiesCount .citieDestination .rightDestination {
+    width: 100%;
+    height: 100%;
+    border: red solid 1px !important;
+  }
+  .header-cout .containers .citiesCount .citieDestination .rightDestination .image {
+    width: 330px;
+    height: 470px !important;
+  }
+  .header-cout .containers .citiesCount .citieDestination .rightDestination .image img {
+    height: 100%;
+  }
+  .header-cout .containers .citiesCount .citieDestination .rightDestination .title {
+    width: 100px;
+    position: relative;
+    top: 20px;
+    right: 70px;
+    font-size: 10px;
+    margin-top: 20px !important;
+  }
+  .header-cout .containers .citiesCount .citieDestination .laftDestination .laftDestinationside .laftDestinationTop {
+    margin-left: 25px;
+  }
+  .header-cout .containers .citiesCount .citieDestination .laftDestination .laftDestinationside .laftDestinationTop .image {
+    width: 300px;
+  }
+  .header-cout .containers .citiesCount .citieDestination .laftDestination .laftDestinationside .laftDestinationTop .image img {
+    width: 100%;
+  }
+  .header-cout .containers .citiesCount .citieDestination .laftDestination .DestinationBut {
+    width: 100%;
+    margin-left: 25px;
+  }
+  .header-cout .containers .citiesCount .citieDestination .laftDestination .DestinationBut .image {
+    width: 640px !important;
+    margin-top: 120px;
+    height: 260px !important;
+  }
+  .header-cout .containers .citiesCount .citieDestination .laftDestination .DestinationBut .image img {
+    width: 100%;
+  }
+}
+@media (max-width: 1250px) {
+  .header-cout .containers .citiesCount .citieDestination .rightDestination {
+    width: 100%;
+    height: 100%;
+    border: red solid 1px !important;
+  }
+  .header-cout .containers .citiesCount .citieDestination .rightDestination .image {
+    width: 330px;
+    height: 470px !important;
+  }
+  .header-cout .containers .citiesCount .citieDestination .rightDestination .image img {
+    height: 100%;
+  }
+  .header-cout .containers .citiesCount .citieDestination .rightDestination .title {
+    width: 100px;
+    position: relative;
+    top: 20px;
+    right: 70px;
+    font-size: 10px;
+    margin-top: 20px !important;
+  }
+  .header-cout .containers .citiesCount .citieDestination .laftDestination .laftDestinationside .laftDestinationTop {
+    margin-left: 25px;
+  }
+  .header-cout .containers .citiesCount .citieDestination .laftDestination .laftDestinationside .laftDestinationTop .image {
+    width: 300px;
+  }
+  .header-cout .containers .citiesCount .citieDestination .laftDestination .laftDestinationside .laftDestinationTop .image img {
+    width: 100%;
+  }
+  .header-cout .containers .citiesCount .citieDestination .laftDestination .DestinationBut {
+    width: 100%;
+    margin-left: 25px;
+  }
+  .header-cout .containers .citiesCount .citieDestination .laftDestination .DestinationBut .image {
+    width: 640px !important;
+    margin-top: 120px;
+    height: 260px !important;
+  }
+  .header-cout .containers .citiesCount .citieDestination .laftDestination .DestinationBut .image img {
+    width: 100%;
+  }
+}/*# sourceMappingURL=Destination.css.map */

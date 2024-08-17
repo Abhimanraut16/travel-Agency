@@ -1,0 +1,578 @@
+.btn {
+  color: #fff;
+}
+
+.moment {
+  position: relative;
+  bottom: 50px;
+
+  .secmement {
+    max-width: 60%;
+    text-align: center;
+    margin: 0 auto 2rem;
+
+
+    .secmomenttitle {
+      .secTitlemoment {
+        color: var(--blackcolor);
+        line-height: 1.5rem;
+        padding-bottom: .5rem;
+
+      }
+
+      .histro {
+        font-size: 13px;
+        color: var(--textycolor);
+        font-weight: 500
+      }
+    }
+
+    .videosecg {
+      width: 900px;
+      display: flex;
+      gap: 10px;
+      margin-top: 40px;
+
+      .video {
+        width: 500px;
+        text-align: center;
+
+
+      }
+
+    }
+
+  }
+
+  .bestMoment {
+    .momentView {
+      width: 100%;
+      height: 250px;
+      display: flex;
+      gap: 10px;
+
+
+
+      .videocountMoment {
+        width: 50%;
+        height: 250px;
+        position: relative;
+
+        .image {
+
+          // width: 100%;
+          width: 800px;
+          height: 250px;
+
+          img {
+            width: 100%;
+            height: 100%;
+
+          }
+        }
+
+        .title {
+          position: absolute;
+          bottom: 15px;
+          color: #fff;
+          padding-left: 20px;
+          width: 500px;
+
+          h5 {
+            color: orangered;
+          }
+        }
+
+
+      }
+
+      .videocountMoment {
+        width: 50%;
+        position: relative;
+
+
+        .image {
+          width: 100%;
+          height: 250px;
+
+          img {
+            width: 100%;
+            height: 100%;
+          }
+        }
+
+        .title {
+          position: absolute;
+          bottom: 15px;
+          color: #fff;
+          padding-left: 20px;
+          width: 500px;
+
+          h5 {
+            color: orangered;
+          }
+
+        }
+
+
+      }
+    }
+
+  }
+}
+
+
+@media (max-width:640px) {
+
+  .videosecg {
+    flex-direction: column;
+    width: 400px !important;
+
+
+    .video {
+      width: 100% !important;
+
+
+    }
+  }
+
+  .bestMoment {
+    .momentView {
+      width: 100%;
+      height: 250px;
+      display: flex;
+      gap: 10px;
+
+
+
+      .videocountMoment {
+        width: 50%;
+        height: 250px;
+        position: relative;
+
+        .image {
+
+          // width: 100%;
+          width: 800px;
+          height: 250px;
+
+          img {
+            width: 100%;
+            height: 100%;
+
+          }
+        }
+
+        .title {
+          position: absolute;
+          bottom: 15px;
+          color: #fff;
+          padding-left: 20px;
+          width: 500px;
+
+          h5 {
+            color: orangered;
+          }
+        }
+
+
+      }
+
+      .videocountMoment {
+        width: 50%;
+        position: relative;
+
+
+        .image {
+          width: 100%;
+          height: 250px;
+
+          img {
+            width: 100%;
+            height: 100%;
+          }
+        }
+
+        .title {
+          position: absolute;
+          bottom: 15px;
+          color: #fff;
+          padding-left: 20px;
+          width: 500px;
+
+          h5 {
+            color: orangered;
+          }
+
+        }
+
+
+      }
+    }
+
+  }
+
+
+}
+
+@media (max-width:550px) {
+
+  .videosecg {
+    flex-direction: column;
+    width: 400px !important;
+    position: relative;
+    right: 40px;
+
+    .video {
+      width: 100% !important;
+
+
+    }
+  }
+
+  .bestMoment {
+    .momentView {
+      width: 100%;
+      height: 250px;
+      display: flex;
+      gap: 10px;
+
+
+
+      .videocountMoment {
+        width: 250px !important;
+        position: relative;
+        left: 20px;
+
+        .image {
+          width: 100%;
+          height: 250px;
+
+          img {
+            width: 100%;
+            height: 100%;
+          }
+        }
+
+
+      }
+    }
+
+  }
+
+
+}
+
+@media (max-width:750px) {
+
+  .videosecg {
+    flex-direction: column;
+    width: 400px !important;
+    position: relative;
+    // right: 0px;
+    left: 0px;
+    border: 1px red solid;
+
+    .videocount {
+      .video {
+        width: 100% !important;
+
+
+      }
+    }
+
+  }
+
+  .bestMoment {
+    .momentView {
+      width: 100%;
+      height: 250px;
+      display: flex;
+      gap: 10px;
+
+
+
+      .videocountMoment {
+        width: 40%;
+        height: 250px;
+        position: relative;
+
+        .image {
+
+          // width: 100%;
+          width: 350px !important;
+          height: 250px;
+          margin-left: 10px;
+
+          img {
+            width: 100%;
+            height: 100%;
+
+          }
+        }
+
+        .title {
+          position: absolute;
+          bottom: 15px;
+          color: #fff;
+          padding-left: 20px;
+          width: 500px;
+
+          h5 {
+            color: orangered;
+          }
+        }
+
+
+      }
+
+      .videocountMoment {
+        width: 50%;
+        position: relative;
+
+
+        .image {
+          width: 100%;
+          height: 250px;
+
+          img {
+            width: 100%;
+            height: 100%;
+          }
+        }
+
+        .title {
+          position: absolute;
+          bottom: 15px;
+          color: #fff;
+          padding-left: 20px;
+          width: 500px;
+
+          h5 {
+            color: orangered;
+          }
+
+        }
+
+
+      }
+    }
+
+  }
+
+
+}
+
+@media (max-width:850px) {
+
+  .videosecg {
+    // flex-direction: column;
+    width: 700px !important;
+    position: relative;
+    right: 100px;
+  }
+
+  .bestMoment {
+    .momentView {
+      width: 100%;
+      height: 250px;
+      display: flex;
+      gap: 10px;
+
+
+
+      .videocountMoment {
+        width: 40%;
+        height: 250px;
+        position: relative;
+
+        .image {
+
+          // width: 100%;
+          width: 400px !important;
+          height: 250px;
+          margin-left: 10px;
+
+          img {
+            width: 100%;
+            height: 100%;
+
+          }
+        }
+
+        .title {
+          position: absolute;
+          bottom: 15px;
+          color: #fff;
+          padding-left: 20px;
+          width: 500px;
+
+          h5 {
+            color: orangered;
+          }
+        }
+
+
+      }
+
+      .videocountMoment {
+        width: 50%;
+        position: relative;
+
+
+        .image {
+          width: 100%;
+          height: 250px;
+
+          img {
+            width: 100%;
+            height: 100%;
+          }
+        }
+
+        .title {
+          position: absolute;
+          bottom: 15px;
+          color: #fff;
+          padding-left: 20px;
+          width: 500px;
+
+          h5 {
+            color: orangered;
+          }
+
+        }
+
+
+      }
+    }
+
+  }
+
+
+}
+
+
+@media (max-width:970px) {
+
+  .videosecg {
+    // flex-direction: column;
+    width: 700px !important;
+    position: relative;
+    right: 150px;
+
+    .video {
+    position: relative;
+    left: 50px;
+    }
+
+  }
+
+  .bestMoment {
+    .momentView {
+      width: 100%;
+      height: 250px;
+      display: flex;
+      gap: 10px;
+
+
+
+   
+    }
+
+  }
+
+
+}
+
+@media (max-width:1080px) {
+
+  .videosecg {
+    // flex-direction: column;
+    width: 900px !important;
+    position: relative;
+    right: 150px;
+
+    .video {
+    position: relative;
+    left: 50px;
+    }
+
+  }
+
+  .bestMoment {
+    .momentView {
+      width: 100%;
+      height: 250px;
+      display: flex;
+      gap: 10px;
+
+
+
+    }
+
+  }
+
+
+}
+
+@media (max-width:1150px) {
+
+  .videosecg {
+    // flex-direction: column;
+    width: 990px !important;
+    position: relative;
+    right: 170px;
+
+    .video {
+    position: relative;
+    left: 50px;
+    }
+
+  }
+
+  .bestMoment {
+    .momentView {
+      width: 100%;
+      height: 250px;
+      display: flex;
+      gap: 10px;
+
+
+    }
+
+  }
+
+
+}
+
+@media (max-width:1250px) {
+
+  .videosecg {
+    // flex-direction: column;
+    width: 990px !important;
+    position: relative;
+    right: 170px;
+
+    .video {
+    position: relative;
+    left: 50px;
+    }
+
+  }
+
+  .bestMoment {
+    .momentView {
+      width: 100%;
+      height: 250px;
+      display: flex;
+      gap: 10px;
+
+
+
+    }
+
+  }
+
+
+}

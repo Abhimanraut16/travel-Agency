@@ -1,0 +1,624 @@
+section {
+  .header {
+    .travel-cout {
+      width: 100%;
+      height: 81vh;
+      // margin-top: 20px;
+
+      .containers {
+        .travelCount {
+          width: 100%;
+
+          .travelDestination {
+            height: 100vh;
+            display: flex;
+            right: 15px;
+            gap: 15px;
+
+            .righttravel {
+              width: 50%;
+              height: 80vh;
+
+              .maincount {
+
+                display: flex;
+                gap: 10px;
+                flex-wrap: wrap;
+
+                .main {
+                  // margin-left: 30px;
+                  width: 150px;
+                  border: 1px rgb(212, 209, 209) solid;
+                  height: 140px;
+                  box-shadow: rgba(40, 39, 39, 0.35) 0px 5px 15px;
+
+                  .costom {
+                    padding-top: 30px;
+                    width: 100%;
+                    height: 100%;
+
+                    .image {
+                      width: 50px;
+                      // margin-top: 10px 5px;
+                      padding-bottom: 4px;
+
+                      img {
+                        margin: 0 0 0 50px;
+                      }
+                    }
+
+                    p {
+                      height: 50px;
+                      width: 150px;
+
+                      text-align: center;
+                      font-weight: 600;
+                    }
+
+                  }
+                }
+              }
+
+
+            }
+
+            .lafttravel {
+              width: 50%;
+              height: 60vh;
+
+              .image {
+                width: 500px;
+                height: 55vh;
+
+                img {
+                  width: 100%;
+                  height: 100%;
+                }
+              }
+
+
+
+
+            }
+
+          }
+
+        }
+      }
+
+
+
+    }
+  }
+}
+
+@media (max-width:640px) {
+  .travel-cout {
+    width: 100%;
+    margin-top: 850px !important;
+
+
+    .paragraph {
+      width: 100%;
+      text-align: center;
+
+      p {
+        width: 80%;
+        margin-left: 40px !important;
+        margin-top: 20px;
+
+
+      }
+    }
+
+    .containers {
+      width: 100%;
+
+      .travelCount {
+        .travelDestination {
+          flex-direction: column;
+          width: 100%;
+
+          height: 100vh;
+          margin-top: 30px;
+
+
+          .righttravel {
+            width: 550px !important;
+
+
+            .maincount {
+              .main {
+                width: 100%;
+                position: relative;
+                left: 60px;
+              }
+
+              .learn {
+                margin-left: 70px;
+                width: 300px;
+
+                .btn {
+                  width: 100%;
+                  margin-left: 70px;
+
+                }
+
+              }
+            }
+          }
+
+          .lafttravel {
+            width: 100%;
+            margin-left: 35px !important;
+
+            margin-top: 30px;
+
+            .image {
+              width: 520px !important;
+
+            }
+
+          }
+        }
+
+      }
+    }
+  }
+
+}
+
+
+@media (max-width:550px) {
+  .travel-cout {
+    .containers {
+      .travelCount {
+        .travelDestination {
+          .lafttravel {
+
+            .image {
+              width: 500px !important;
+            }
+
+          }
+        }
+
+      }
+    }
+  }
+
+}
+
+
+@media (max-width:750px) {
+  .travel-cout {
+    width: 100%;
+    margin-top: 890px !important;
+    // border: 1px red solid;
+
+
+    .paragraph {
+      width: 100%;
+      text-align: center;
+      margin-top: 900px;
+
+
+      p {
+        width: 80%;
+        margin-left: 70px !important;
+        margin-top: 20px;
+
+
+      }
+    }
+
+    .containers {
+      width: 100%;
+
+      .travelCount {
+        .travelDestination {
+          flex-direction: column;
+          width: 100%;
+
+          height: 100vh;
+          margin-top: 30px;
+
+
+          .righttravel {
+            width: 550px !important;
+
+
+            .maincount {
+              .main {
+                width: 100%;
+                position: relative;
+                left: 130px;
+              }
+
+              .learn {
+                margin-left: 130px;
+                width: 300px;
+
+                .btn {
+                  width: 100%;
+                  margin-left: 70px;
+
+                }
+
+              }
+            }
+          }
+
+          .lafttravel {
+            width: 100%;
+            margin-left: 130px !important;
+
+            margin-top: 30px;
+
+            .image {
+              width: 470px !important;
+
+            }
+
+          }
+        }
+
+      }
+    }
+  }
+
+}
+
+
+@media (max-width:850px) {
+  .travel-cout {
+    width: 100%;
+    margin-top: 150px !important;
+
+
+    .paragraph {
+      width: 100%;
+      text-align: center;
+
+      p {
+        width: 80%;
+        margin-left: 70px !important;
+        margin-top: 20px;
+
+
+      }
+    }
+
+    .containers {
+      width: 100%;
+
+      .travelCount {
+        .travelDestination {
+          flex-direction: column;
+          width: 100%;
+
+          height: 100vh;
+          margin-top: 30px;
+
+
+          .righttravel {
+            width: 600px !important;
+
+            padding: 0px 20px;
+
+
+            .maincount {
+              .main {
+                width: 100%;
+                position: relative;
+                left: 130px;
+  
+              }
+
+              .learn {
+                width: 500px !important;
+                margin-left: 110px;
+                width: 300px;
+
+                .btn {
+                  width: 100%;
+                  margin-left: 30px;
+
+                }
+
+              }
+            }
+          }
+
+          .lafttravel {
+            width: 100%;
+            margin-left: 130px !important;
+
+            margin-top: 30px;
+
+            .image {
+              width: 560px !important;
+              height: 180px !important;
+              position: relative;
+              right: 20px;
+
+            }
+
+          }
+        }
+
+      }
+    }
+  }
+
+}
+
+@media (max-width:970px) {
+  .travel-cout {
+    width: 100%;
+    margin-top: 150px !important;
+    .containers {
+      width: 100%;
+
+      .travelCount {
+        .travelDestination {
+          // flex-direction: column;
+          width: 100%;
+          height: 100vh;
+          margin-top: 10px;
+
+
+          .righttravel {
+            width: 630px !important;
+            // padding: 0px 20px
+
+            .maincount {
+              .main {
+                width: 100%;
+                position: relative;
+                // left: 130px;
+
+              }
+              .learn {
+                width: 650px !important;
+
+
+ 
+                .btn {
+                  width: 100%;
+                  // margin-left: 30px;
+
+                }
+
+              }
+            }
+          }
+
+
+          .lafttravel {
+            width: 100%;
+            // margin-left: 130px !important;
+            // margin-top: 30px;
+            .image {
+              width: 360px !important;
+              height: 290px !important;
+              position: relative;
+              right: 100px;
+              img{
+                width: 100%;
+                height: 100%;
+              }
+
+            }
+
+          }
+        }
+
+      }
+    }
+  }
+
+}
+
+@media (max-width:1080px) {
+  .travel-cout {
+    width: 100%;
+    margin-top: 200px !important;
+    .containers {
+      width: 100%;
+
+      .travelCount {
+        .travelDestination {
+          // flex-direction: column;
+          width: 100%;
+          height: 100vh;
+          // margin-top: 0px;
+
+
+          .righttravel {
+            width: 630px !important;
+            // padding: 0px 20px
+
+            .maincount {
+              .main {
+                width: 100%;
+                position: relative;
+                // left: 130px;
+
+              }
+              .learn {
+                width: 650px !important;
+
+
+ 
+                .btn {
+                  width: 100%;
+                  // margin-left: 30px;
+
+                }
+
+              }
+            }
+          }
+
+
+          .lafttravel {
+            width: 100%;
+            // margin-left: 130px !important;
+            // margin-top: 30px;
+            .image {
+              width: 380px !important;
+              height: 290px !important;
+              position: relative;
+              right: 150px;
+              img{
+                width: 100%;
+                height: 100%;
+              }
+
+            }
+
+          }
+        }
+
+      }
+    }
+  }
+
+}
+
+@media (max-width:1150px) {
+  .travel-cout {
+    width: 100%;
+    margin-top: 200px !important;
+    .containers {
+      width: 100%;
+
+      .travelCount {
+        .travelDestination {
+          // flex-direction: column;
+          width: 100%;
+          height: 100vh;
+          // margin-top: 0px;
+
+
+          .righttravel {
+            width: 630px !important;
+            // padding: 0px 20px
+
+            .maincount {
+              .main {
+                width: 100%;
+                position: relative;
+                // left: 130px;
+
+              }
+              .learn {
+                width: 650px !important;
+
+
+ 
+                .btn {
+                  width: 100%;
+                  // margin-left: 30px;
+
+                }
+
+              }
+            }
+          }
+
+
+          .lafttravel {
+            width: 100%;
+            // margin-left: 130px !important;
+            // margin-top: 30px;
+            .image {
+              width: 488px !important;
+              height: 290px !important;
+              position: relative;
+              right: 150px;
+
+              img{
+                width: 100%;
+                height: 100%;
+              }
+
+            }
+
+          }
+        }
+
+      }
+    }
+  }
+
+}
+@media (max-width:1250px) {
+  .travel-cout {
+    width: 100%;
+    margin-top: 200px !important;
+    .containers {
+      width: 100%;
+
+      .travelCount {
+        .travelDestination {
+          // flex-direction: column;
+          width: 100%;
+          height: 100vh;
+          // margin-top: 0px;
+
+
+          .righttravel {
+            width: 630px !important;
+            // padding: 0px 20px;
+
+
+            .maincount {
+              .main {
+                width: 100%;
+                position: relative;
+                // left: 130px;
+  
+              }
+              .learn {
+                width: 650px !important;
+
+  
+ 
+                .btn {
+                  width: 100%;
+                  // margin-left: 30px;
+
+                }
+
+              }
+            }
+          }
+
+
+          .lafttravel {
+            width: 100%;
+            // margin-left: 130px !important;
+            // margin-top: 30px;
+            .image {
+              width: 488px !important;
+              height: 290px !important;
+              position: relative;
+              right: 150px;
+
+              img{
+                width: 100%;
+                height: 100%;
+              }
+
+            }
+
+          }
+        }
+
+      }
+    }
+  }
+
+}

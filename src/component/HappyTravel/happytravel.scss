@@ -1,0 +1,302 @@
+.secmomenttitle {
+  margin-top: 40px;
+}
+
+.happyTravel {
+  width: 100%;
+  
+
+  .happytrevelCEO {
+    margin-top: 50px;
+    display: flex;
+    gap: 8px;
+
+
+    .happyCEO {
+      height: 220px;
+      width: 250px;
+
+      p {
+        width: 250px;
+        height: 190px;
+        background: rgb(209, 212, 213);
+        color: rgb(114, 116, 119);
+        padding: 15px;
+        font-style: italic;
+        font-weight: 500;
+
+      }
+
+      .user {
+        display: flex;
+        width: 100%;
+        gap: 10px;
+
+        .image {
+          width: 65px;
+          margin-left: 30px;
+          padding: 0 4px;
+
+
+
+
+        }
+
+        .ceo {
+          .name {
+            font-weight: 500;
+            color: rgb(110, 99, 99);
+          }
+
+          span {
+            width: 20px;
+            color: rgb(102, 174, 175);
+            right: 0;
+            margin-right: 20px;
+            padding-right: 15px;
+
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width:640px) {
+  .moment {
+    .secmement {
+      .secmomenttitle {
+        width: 500px;
+        margin-right: 20px;
+        position: relative;
+        right: 55px;
+
+      }
+
+      .happyTravel {
+        .happytrevelCEO {
+          // flex-direction: column;
+          display: grid;
+          width: 500px;
+          grid-template-columns: 1fr 1fr;
+          gap: 0.7rem;
+          position: relative;
+          right: 55px;
+
+
+
+        }
+      }
+    }
+  }
+}
+
+@media (max-width:550px) {
+  .moment {
+    .secmement {
+      .secmomenttitle {
+        width: 500px;
+        margin-right: 20px;
+        position: relative;
+        right: 85px;
+      }
+
+      .happyTravel {
+        .happytrevelCEO {
+          // flex-direction: column;
+          display: grid;
+          width: 500px;
+          grid-template-columns: 1fr 1fr;
+          gap: 0.7rem;
+          position: relative;
+          right: 95px;
+
+        }
+      }
+    }
+  }
+}
+
+@media (max-width:750px) {
+  .moment {
+    .secmement {
+      .secmomenttitle {
+        width: 500px;
+        margin-right: 20px;
+        position: relative;
+        right: 55px;
+
+      }
+
+      .happyTravel {
+        .happytrevelCEO {
+          // flex-direction: column;
+          display: grid;
+          width: 500px;
+          grid-template-columns: 1fr 1fr;
+          gap: 0.7rem;
+          position: relative;
+          right: 55px;
+
+
+
+        }
+      }
+    }
+  }
+}
+
+
+@media (max-width:850px) {
+  .moment {
+    .secmement {
+      .secmomenttitle {
+        width: 500px;
+        margin-right: 20px;
+        position: relative;
+        right: 55px;
+
+
+      }
+
+      .happyTravel {
+        .happytrevelCEO {
+          // flex-direction: column;
+          display: grid;
+          width: 500px;
+          grid-template-columns: 1fr 1fr;
+          gap: 0.7rem;
+          position: relative;
+          right: 55px;
+
+
+
+        }
+      }
+    }
+  }
+}
+
+@media (max-width:970px) {
+  .moment {
+    .secmement {
+      .secmomenttitle {
+        width: 500px;
+        margin-right: 20px;
+        position: relative;
+        right: 55px;
+
+
+      }
+
+      .happyTravel {
+        .happytrevelCEO {
+          // flex-direction: column;
+          display: grid;
+          width: 500px;
+          grid-template-columns: 1fr 1fr 1fr;
+          gap: 0.7rem;
+          position: relative;
+          right: 150px;
+          
+
+
+
+        }
+      }
+    }
+  }
+}
+
+@media (max-width:1080px) {
+  .moment {
+    .secmement {
+      .secmomenttitle {
+        width: 800px;
+        // margin-right: 20px;
+        position: relative;
+        right: 60px;
+
+
+      }
+
+      .happyTravel {
+        .happytrevelCEO {
+          // flex-direction: column;
+          display: grid;
+          width: 800px !important;
+          grid-template-columns: 1fr 1fr 1fr;
+          gap: 0.7rem;
+          position: relative;
+          right: 50px;
+          
+
+
+
+        }
+      }
+    }
+  }
+}
+
+@media (max-width:1150px) {
+  .moment {
+    .secmement {
+      .secmomenttitle {
+        width: 800px;
+        position: relative;
+        right: 60px;
+
+
+      }
+
+      .happyTravel {
+        .happytrevelCEO {
+ 
+          display: grid;
+          width: 800px !important;
+          grid-template-columns: 1fr 1fr 1fr;
+          gap: 0.7rem;
+          position: relative;
+          right: 50px;
+          
+
+
+
+        }
+      }
+    }
+  }
+}
+
+
+@media (max-width:1250px) {
+  .moment {
+    .secmement {
+      .secmomenttitle {
+        width: 800px;
+        // margin-right: 20px;
+        position: relative;
+        right: 60px;
+
+
+      }
+
+      .happyTravel {
+        .happytrevelCEO {
+          // flex-direction: column;
+          display: grid;
+          width: 800px !important;
+          grid-template-columns: 1fr 1fr 1fr;
+          gap: 0.7rem;
+          position: relative;
+          right: 50px;
+          
+
+
+
+        }
+      }
+    }
+  }
+}

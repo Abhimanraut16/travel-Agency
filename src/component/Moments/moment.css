@@ -1,0 +1,366 @@
+.btn {
+  color: #fff;
+}
+
+.moment {
+  position: relative;
+  bottom: 50px;
+}
+.moment .secmement {
+  max-width: 60%;
+  text-align: center;
+  margin: 0 auto 2rem;
+}
+.moment .secmement .secmomenttitle .secTitlemoment {
+  color: var(--blackcolor);
+  line-height: 1.5rem;
+  padding-bottom: 0.5rem;
+}
+.moment .secmement .secmomenttitle .histro {
+  font-size: 13px;
+  color: var(--textycolor);
+  font-weight: 500;
+}
+.moment .secmement .videosecg {
+  width: 900px;
+  display: flex;
+  gap: 10px;
+  margin-top: 40px;
+}
+.moment .secmement .videosecg .video {
+  width: 500px;
+  text-align: center;
+}
+.moment .bestMoment .momentView {
+  width: 100%;
+  height: 250px;
+  display: flex;
+  gap: 10px;
+}
+.moment .bestMoment .momentView .videocountMoment {
+  width: 50%;
+  height: 250px;
+  position: relative;
+}
+.moment .bestMoment .momentView .videocountMoment .image {
+  width: 800px;
+  height: 250px;
+}
+.moment .bestMoment .momentView .videocountMoment .image img {
+  width: 100%;
+  height: 100%;
+}
+.moment .bestMoment .momentView .videocountMoment .title {
+  position: absolute;
+  bottom: 15px;
+  color: #fff;
+  padding-left: 20px;
+  width: 500px;
+}
+.moment .bestMoment .momentView .videocountMoment .title h5 {
+  color: orangered;
+}
+.moment .bestMoment .momentView .videocountMoment {
+  width: 50%;
+  position: relative;
+}
+.moment .bestMoment .momentView .videocountMoment .image {
+  width: 100%;
+  height: 250px;
+}
+.moment .bestMoment .momentView .videocountMoment .image img {
+  width: 100%;
+  height: 100%;
+}
+.moment .bestMoment .momentView .videocountMoment .title {
+  position: absolute;
+  bottom: 15px;
+  color: #fff;
+  padding-left: 20px;
+  width: 500px;
+}
+.moment .bestMoment .momentView .videocountMoment .title h5 {
+  color: orangered;
+}
+
+@media (max-width: 640px) {
+  .videosecg {
+    flex-direction: column;
+    width: 400px !important;
+  }
+  .videosecg .video {
+    width: 100% !important;
+  }
+  .bestMoment .momentView {
+    width: 100%;
+    height: 250px;
+    display: flex;
+    gap: 10px;
+  }
+  .bestMoment .momentView .videocountMoment {
+    width: 50%;
+    height: 250px;
+    position: relative;
+  }
+  .bestMoment .momentView .videocountMoment .image {
+    width: 800px;
+    height: 250px;
+  }
+  .bestMoment .momentView .videocountMoment .image img {
+    width: 100%;
+    height: 100%;
+  }
+  .bestMoment .momentView .videocountMoment .title {
+    position: absolute;
+    bottom: 15px;
+    color: #fff;
+    padding-left: 20px;
+    width: 500px;
+  }
+  .bestMoment .momentView .videocountMoment .title h5 {
+    color: orangered;
+  }
+  .bestMoment .momentView .videocountMoment {
+    width: 50%;
+    position: relative;
+  }
+  .bestMoment .momentView .videocountMoment .image {
+    width: 100%;
+    height: 250px;
+  }
+  .bestMoment .momentView .videocountMoment .image img {
+    width: 100%;
+    height: 100%;
+  }
+  .bestMoment .momentView .videocountMoment .title {
+    position: absolute;
+    bottom: 15px;
+    color: #fff;
+    padding-left: 20px;
+    width: 500px;
+  }
+  .bestMoment .momentView .videocountMoment .title h5 {
+    color: orangered;
+  }
+}
+@media (max-width: 550px) {
+  .videosecg {
+    flex-direction: column;
+    width: 400px !important;
+    position: relative;
+    right: 40px;
+  }
+  .videosecg .video {
+    width: 100% !important;
+  }
+  .bestMoment .momentView {
+    width: 100%;
+    height: 250px;
+    display: flex;
+    gap: 10px;
+  }
+  .bestMoment .momentView .videocountMoment {
+    width: 250px !important;
+    position: relative;
+    left: 20px;
+  }
+  .bestMoment .momentView .videocountMoment .image {
+    width: 100%;
+    height: 250px;
+  }
+  .bestMoment .momentView .videocountMoment .image img {
+    width: 100%;
+    height: 100%;
+  }
+}
+@media (max-width: 750px) {
+  .videosecg {
+    flex-direction: column;
+    width: 400px !important;
+    position: relative;
+    left: 0px;
+    border: 1px red solid;
+  }
+  .videosecg .videocount .video {
+    width: 100% !important;
+  }
+  .bestMoment .momentView {
+    width: 100%;
+    height: 250px;
+    display: flex;
+    gap: 10px;
+  }
+  .bestMoment .momentView .videocountMoment {
+    width: 40%;
+    height: 250px;
+    position: relative;
+  }
+  .bestMoment .momentView .videocountMoment .image {
+    width: 350px !important;
+    height: 250px;
+    margin-left: 10px;
+  }
+  .bestMoment .momentView .videocountMoment .image img {
+    width: 100%;
+    height: 100%;
+  }
+  .bestMoment .momentView .videocountMoment .title {
+    position: absolute;
+    bottom: 15px;
+    color: #fff;
+    padding-left: 20px;
+    width: 500px;
+  }
+  .bestMoment .momentView .videocountMoment .title h5 {
+    color: orangered;
+  }
+  .bestMoment .momentView .videocountMoment {
+    width: 50%;
+    position: relative;
+  }
+  .bestMoment .momentView .videocountMoment .image {
+    width: 100%;
+    height: 250px;
+  }
+  .bestMoment .momentView .videocountMoment .image img {
+    width: 100%;
+    height: 100%;
+  }
+  .bestMoment .momentView .videocountMoment .title {
+    position: absolute;
+    bottom: 15px;
+    color: #fff;
+    padding-left: 20px;
+    width: 500px;
+  }
+  .bestMoment .momentView .videocountMoment .title h5 {
+    color: orangered;
+  }
+}
+@media (max-width: 850px) {
+  .videosecg {
+    width: 700px !important;
+    position: relative;
+    right: 100px;
+  }
+  .bestMoment .momentView {
+    width: 100%;
+    height: 250px;
+    display: flex;
+    gap: 10px;
+  }
+  .bestMoment .momentView .videocountMoment {
+    width: 40%;
+    height: 250px;
+    position: relative;
+  }
+  .bestMoment .momentView .videocountMoment .image {
+    width: 400px !important;
+    height: 250px;
+    margin-left: 10px;
+  }
+  .bestMoment .momentView .videocountMoment .image img {
+    width: 100%;
+    height: 100%;
+  }
+  .bestMoment .momentView .videocountMoment .title {
+    position: absolute;
+    bottom: 15px;
+    color: #fff;
+    padding-left: 20px;
+    width: 500px;
+  }
+  .bestMoment .momentView .videocountMoment .title h5 {
+    color: orangered;
+  }
+  .bestMoment .momentView .videocountMoment {
+    width: 50%;
+    position: relative;
+  }
+  .bestMoment .momentView .videocountMoment .image {
+    width: 100%;
+    height: 250px;
+  }
+  .bestMoment .momentView .videocountMoment .image img {
+    width: 100%;
+    height: 100%;
+  }
+  .bestMoment .momentView .videocountMoment .title {
+    position: absolute;
+    bottom: 15px;
+    color: #fff;
+    padding-left: 20px;
+    width: 500px;
+  }
+  .bestMoment .momentView .videocountMoment .title h5 {
+    color: orangered;
+  }
+}
+@media (max-width: 970px) {
+  .videosecg {
+    width: 700px !important;
+    position: relative;
+    right: 150px;
+  }
+  .videosecg .video {
+    position: relative;
+    left: 50px;
+  }
+  .bestMoment .momentView {
+    width: 100%;
+    height: 250px;
+    display: flex;
+    gap: 10px;
+  }
+}
+@media (max-width: 1080px) {
+  .videosecg {
+    width: 900px !important;
+    position: relative;
+    right: 150px;
+  }
+  .videosecg .video {
+    position: relative;
+    left: 50px;
+  }
+  .bestMoment .momentView {
+    width: 100%;
+    height: 250px;
+    display: flex;
+    gap: 10px;
+  }
+}
+@media (max-width: 1150px) {
+  .videosecg {
+    width: 990px !important;
+    position: relative;
+    right: 170px;
+  }
+  .videosecg .video {
+    position: relative;
+    left: 50px;
+  }
+  .bestMoment .momentView {
+    width: 100%;
+    height: 250px;
+    display: flex;
+    gap: 10px;
+  }
+}
+@media (max-width: 1250px) {
+  .videosecg {
+    width: 990px !important;
+    position: relative;
+    right: 170px;
+  }
+  .videosecg .video {
+    position: relative;
+    left: 50px;
+  }
+  .bestMoment .momentView {
+    width: 100%;
+    height: 250px;
+    display: flex;
+    gap: 10px;
+  }
+}/*# sourceMappingURL=moment.css.map */
