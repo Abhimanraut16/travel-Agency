@@ -46,16 +46,18 @@
 
         .logoDiv {
             .logo {
+                cursor: pointer !important;
+              
                 h4 {
                     color: var(--blackcolor);
                     padding: 10px;
                     font-size: 18px;
                     font-weight: 600;
+                    
                 }
 
                 color: var(--whitecolor);
                 font-weight: 500;
-                cursor: pointer;
                 align-items: center;
                 justify-content: center;
 

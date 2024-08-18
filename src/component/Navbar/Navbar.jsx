@@ -7,6 +7,7 @@ import { IoIosCloseCircle } from "react-icons/io";
 
 
 import HeadNavbar from '../HeadNavbar/HeadNavbar';
+import { Link } from 'react-router-dom';
 function Navbar() {
   const [active, setActive] = useState('navBar')
   const showNav = () => {
@@ -34,33 +35,33 @@ function Navbar() {
         <div className={transparent}>
 
           <div className="logoDiv">
-            <a href="#" className='logo'>
+            <Link to="/" className='logo'>
 
               <h4>
                 <GiWorld className='icon' />
                 Elemento City Tour
               </h4>
-            </a>
+            </Link>
           </div>
 
           <div className={active}>
             <ul className="navLists flex mx-5">
 
               <li className="navItem active">
-                <a href="#" className="navLink active">Home</a>
+                <Link to="/" className="navLink active">Home</Link>
               </li>
               <li className="navItem">
-                <a href="" className="navLink">All Trip</a>
+                <a href="alltrip" className="navLink">All trip</a>
               </li>
               <li className="navItem">
-                <a href="" className="navLink">Distination</a>
+                <a href="destination" className="navLink">Distination</a>
                 
               </li>
               <li className="navItem">
-                <a href="#" className="navLink">Blog</a>
+                <a href="blog" className="navLink">Blog</a>
               </li>
               <li className="navItem">
-                <a href="#" className="navLink"> Contact</a>
+                <a href="contact" className="navLink"> Contact Us</a>
               </li>
               {/* <li className="navItem">
                 <a href="#" className="navLink"> Account</a>

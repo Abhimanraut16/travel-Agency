@@ -38,9 +38,9 @@
   background-color: var(--graytext);
 }
 .navBarSection .header .logoDiv .logo {
+  cursor: pointer !important;
   color: var(--whitecolor);
   font-weight: 500;
-  cursor: pointer;
   align-items: center;
   justify-content: center;
 }
