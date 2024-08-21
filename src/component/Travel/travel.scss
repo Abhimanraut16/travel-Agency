@@ -1,94 +1,98 @@
 section {
   .header {
-    .travel-cout {
-      width: 100%;
-      height: 81vh;
-      // margin-top: 20px;
 
-      .containers {
-        .travelCount {
-          width: 100%;
+    
+    
+    // .travel-cout {
+    //   width: 100%;
+    //   height: 81vh;
 
-          .travelDestination {
-            height: 100vh;
-            display: flex;
-            right: 15px;
-            gap: 15px;
+    //   // margin-top: 20px;
+    //   // .containers {
+    //   //   .travelCount {
+    //   //     width: 100%;
 
-            .righttravel {
-              width: 50%;
-              height: 80vh;
+    //   //     .travelDestination {
+    //   //       height: 300px;
+    //   //       display: flex;
+    //   //       right: 15px;
+    //   //       gap: 15px;
+    //   //       width: 100%;
 
-              .maincount {
+    //   //       .righttravel {
+    //   //         width: 50%;
+    //   //         height: 80vh;
 
-                display: flex;
-                gap: 10px;
-                flex-wrap: wrap;
+    //   //         .maincount {
+    //   //           display: flex;
+    //   //           gap: 10px;
+    //   //           flex-wrap: wrap;
+    //   //           width: 100%;
+    //   //           height: 50vh;
 
-                .main {
-                  // margin-left: 30px;
-                  width: 150px;
-                  border: 1px rgb(212, 209, 209) solid;
-                  height: 140px;
-                  box-shadow: rgba(40, 39, 39, 0.35) 0px 5px 15px;
+    //   //           .main {
 
-                  .costom {
-                    padding-top: 30px;
-                    width: 100%;
-                    height: 100%;
+    //   //             width: 150px;
+    //   //             border: 1px rgb(212, 209, 209) solid;
+    //   //             height: 140px;
+    //   //             box-shadow: rgba(38, 37, 37, 0.35) 0px 5px 15px;
 
-                    .image {
-                      width: 50px;
-                      // margin-top: 10px 5px;
-                      padding-bottom: 4px;
+    //   //             .costom {
+    //   //               padding-top: 30px;
+    //   //               width: 100%;
 
-                      img {
-                        margin: 0 0 0 50px;
-                      }
-                    }
+    //   //               .image {
+    //   //                 width: 50px;
+    //   //                 margin: 0 0 0 50px;
+    //   //                 height: 50px;
+    //   //                 box-shadow: rgba(38, 37, 37, 0.35) 0px 5px 15px;
 
-                    p {
-                      height: 50px;
-                      width: 150px;
+    //   //                 img {
+    //   //                   width: 100%;
+    //   //                   height: 100%;
+    //   //                 }
+    //   //               }
 
-                      text-align: center;
-                      font-weight: 600;
-                    }
+    //   //               p {
+    //   //                 // height: 50px;
+    //   //                 width: 150px;
+    //   //                 text-align: center;
+    //   //                 font-weight: 600;
+    //   //               }
 
-                  }
-                }
-              }
+    //   //             }
+    //   //           }
+    //   //         }
 
+    //   //       }
 
-            }
+    //   //       .travelImge {
+    //   //         width: 50%;
+    //   //         height: 60vh;
+    //   //         margin-left: 1px;
 
-            .lafttravel {
-              width: 50%;
-              height: 60vh;
+    //   //         .lafttravel {
+    //   //           width: 100%;
+    //   //           height: 100%;
 
-              .image {
-                width: 500px;
-                height: 55vh;
+    //   //           .image {
+    //   //             width: 500px;
+    //   //             height: 60vh;
 
-                img {
-                  width: 100%;
-                  height: 100%;
-                }
-              }
+    //   //             img {
+    //   //               width: 100%;
+    //   //               height: 100%;
+    //   //             }
+    //   //           }
+    //   //         }
+    //   //       }
 
+    //   //     }
 
+    //   //   }
+    //   // }
 
-
-            }
-
-          }
-
-        }
-      }
-
-
-
-    }
+    // }
   }
 }
 
@@ -194,14 +198,11 @@ section {
   .travel-cout {
     width: 100%;
     margin-top: 890px !important;
-    // border: 1px red solid;
-
 
     .paragraph {
       width: 100%;
       text-align: center;
       margin-top: 900px;
-
 
       p {
         width: 80%;
@@ -276,18 +277,6 @@ section {
     margin-top: 150px !important;
 
 
-    .paragraph {
-      width: 100%;
-      text-align: center;
-
-      p {
-        width: 80%;
-        margin-left: 70px !important;
-        margin-top: 20px;
-
-
-      }
-    }
 
     .containers {
       width: 100%;
@@ -312,7 +301,7 @@ section {
                 width: 100%;
                 position: relative;
                 left: 130px;
-  
+
               }
 
               .learn {
@@ -357,6 +346,7 @@ section {
   .travel-cout {
     width: 100%;
     margin-top: 150px !important;
+
     .containers {
       width: 100%;
 
@@ -379,11 +369,12 @@ section {
                 // left: 130px;
 
               }
+
               .learn {
                 width: 650px !important;
 
 
- 
+
                 .btn {
                   width: 100%;
                   // margin-left: 30px;
@@ -397,6 +388,7 @@ section {
 
           .lafttravel {
             width: 100%;
+
             // margin-left: 130px !important;
             // margin-top: 30px;
             .image {
@@ -404,7 +396,8 @@ section {
               height: 290px !important;
               position: relative;
               right: 100px;
-              img{
+
+              img {
                 width: 100%;
                 height: 100%;
               }
@@ -424,6 +417,7 @@ section {
   .travel-cout {
     width: 100%;
     margin-top: 200px !important;
+
     .containers {
       width: 100%;
 
@@ -446,11 +440,12 @@ section {
                 // left: 130px;
 
               }
+
               .learn {
                 width: 650px !important;
 
 
- 
+
                 .btn {
                   width: 100%;
                   // margin-left: 30px;
@@ -464,6 +459,7 @@ section {
 
           .lafttravel {
             width: 100%;
+
             // margin-left: 130px !important;
             // margin-top: 30px;
             .image {
@@ -471,7 +467,8 @@ section {
               height: 290px !important;
               position: relative;
               right: 150px;
-              img{
+
+              img {
                 width: 100%;
                 height: 100%;
               }
@@ -491,6 +488,7 @@ section {
   .travel-cout {
     width: 100%;
     margin-top: 200px !important;
+
     .containers {
       width: 100%;
 
@@ -513,11 +511,12 @@ section {
                 // left: 130px;
 
               }
+
               .learn {
                 width: 650px !important;
 
 
- 
+
                 .btn {
                   width: 100%;
                   // margin-left: 30px;
@@ -531,6 +530,7 @@ section {
 
           .lafttravel {
             width: 100%;
+
             // margin-left: 130px !important;
             // margin-top: 30px;
             .image {
@@ -539,7 +539,7 @@ section {
               position: relative;
               right: 150px;
 
-              img{
+              img {
                 width: 100%;
                 height: 100%;
               }
@@ -554,10 +554,12 @@ section {
   }
 
 }
+
 @media (max-width:1250px) {
   .travel-cout {
     width: 100%;
     margin-top: 200px !important;
+
     .containers {
       width: 100%;
 
@@ -579,13 +581,14 @@ section {
                 width: 100%;
                 position: relative;
                 // left: 130px;
-  
+
               }
+
               .learn {
                 width: 650px !important;
 
-  
- 
+
+
                 .btn {
                   width: 100%;
                   // margin-left: 30px;
@@ -599,6 +602,7 @@ section {
 
           .lafttravel {
             width: 100%;
+
             // margin-left: 130px !important;
             // margin-top: 30px;
             .image {
@@ -607,7 +611,7 @@ section {
               position: relative;
               right: 150px;
 
-              img{
+              img {
                 width: 100%;
                 height: 100%;
               }

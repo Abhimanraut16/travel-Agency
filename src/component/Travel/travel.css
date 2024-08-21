@@ -1,62 +1,3 @@
-section .header .travel-cout {
-  width: 100%;
-  height: 81vh;
-}
-section .header .travel-cout .containers .travelCount {
-  width: 100%;
-}
-section .header .travel-cout .containers .travelCount .travelDestination {
-  height: 100vh;
-  display: flex;
-  right: 15px;
-  gap: 15px;
-}
-section .header .travel-cout .containers .travelCount .travelDestination .righttravel {
-  width: 50%;
-  height: 80vh;
-}
-section .header .travel-cout .containers .travelCount .travelDestination .righttravel .maincount {
-  display: flex;
-  gap: 10px;
-  flex-wrap: wrap;
-}
-section .header .travel-cout .containers .travelCount .travelDestination .righttravel .maincount .main {
-  width: 150px;
-  border: 1px rgb(212, 209, 209) solid;
-  height: 140px;
-  box-shadow: rgba(40, 39, 39, 0.35) 0px 5px 15px;
-}
-section .header .travel-cout .containers .travelCount .travelDestination .righttravel .maincount .main .costom {
-  padding-top: 30px;
-  width: 100%;
-  height: 100%;
-}
-section .header .travel-cout .containers .travelCount .travelDestination .righttravel .maincount .main .costom .image {
-  width: 50px;
-  padding-bottom: 4px;
-}
-section .header .travel-cout .containers .travelCount .travelDestination .righttravel .maincount .main .costom .image img {
-  margin: 0 0 0 50px;
-}
-section .header .travel-cout .containers .travelCount .travelDestination .righttravel .maincount .main .costom p {
-  height: 50px;
-  width: 150px;
-  text-align: center;
-  font-weight: 600;
-}
-section .header .travel-cout .containers .travelCount .travelDestination .lafttravel {
-  width: 50%;
-  height: 60vh;
-}
-section .header .travel-cout .containers .travelCount .travelDestination .lafttravel .image {
-  width: 500px;
-  height: 55vh;
-}
-section .header .travel-cout .containers .travelCount .travelDestination .lafttravel .image img {
-  width: 100%;
-  height: 100%;
-}
-
 @media (max-width: 640px) {
   .travel-cout {
     width: 100%;
@@ -163,15 +104,6 @@ section .header .travel-cout .containers .travelCount .travelDestination .lafttr
   .travel-cout {
     width: 100%;
     margin-top: 150px !important;
-  }
-  .travel-cout .paragraph {
-    width: 100%;
-    text-align: center;
-  }
-  .travel-cout .paragraph p {
-    width: 80%;
-    margin-left: 70px !important;
-    margin-top: 20px;
   }
   .travel-cout .containers {
     width: 100%;

@@ -1,722 +1,1070 @@
+
+:root {
+  --primarycolor: hsl(26, 93%, 50%);
+  --hovercolor: hsl(26, 90%, 42%);
+
+  /* --primarycolor: #00b894;
+  --hovercolor: hsl(197, 90%, 42%); */
+  --whitecolor: hsl(0, 0%, 100%);
+  --blackcolor: hsl(0, 0%, 18%);
+  --navcolor: hsl(248, 74%, 18%);
+  --textycolor: hsl(240, 1%, 48%);
+  --grayBg: hsl(0, 0%, 96%);
+  --graytext: rgb(190, 190, 190);
+  --whitecolorDream: hsl(330, 12%, 97%);
+  --inputColor: hsl(330, 12%, 97%);
+  /* --box-shadow: rgba(2px 8px 2px rgba(178, 178, 178, 0.334)); */
+}
+
 section {
   .header {
-    .header-cout {
-      width: 100%;
-      height: 100vh;
+    .headerCount {
       margin-top: 100px;
 
-      p {
-        width: 70%;
-        height: 50px;
-        margin-left: 10PX;
-      }
-
-      .paragraph {
-        h2 {
-          margin-left: 10PX;
+      .mainheader {
+        .paragraph {
+          width: 100%;
         }
       }
 
-      .containers {
-        .citiesCount {
-          width: 100%;
+      .sidecontainer {
+        display: flex;
+        gap: 5px;
+        font-size: 35px;
+        color: var(--whitecolor);
+        text-align: center;
+        // position: absolute;
+        /* transform: translate(150%); */
+        width: 100%;
+        margin-top: 10px;
 
-          .citieDestination {
-
-            height: 85vh !important;
-            display: flex;
+        .side {
+          .sidebar {
+            width: 100%;
+            height: 200px;
             position: relative;
 
-            gap: 15px;
-
-            .rightDestination {
-              width: 35%;
-              height: 75vh;
-              position: relative;
-              // border: 1px red solid !important;
-
-              .image {
-
-                cursor: pointer;
-                height: 75vh;
-
-                img {
-                  width: 100%;
-                  height: 100%;
-                }
-              }
-
-              .title {
-
-                bottom: 15px;
-                width: 200px;
-                position: absolute;
-                color: #fff;
-                padding-left: 20px;
-
-              }
-
-
-            }
-
-            .laftDestination {
-              width: 65%;
-              height: 85vh;
-
-
-              .laftDestinationside {
-                display: flex;
-                width: 100%;
-                gap: 15px;
-
-                position: relative;
-
-
-                .laftDestinationTop {
-                  width: 100%;
-
-                  height: auto;
-
-                  .image {
-
-                    cursor: pointer;
-
-
-                    img {
-                      width: 100%;
-                      height: 100%;
-                    }
-                  }
-
-                  .title {
-
-                    bottom: 15px;
-                    width: 200px;
-                    position: absolute;
-                    color: #fff;
-                    padding-left: 20px;
-
-                  }
-
-
-                }
-
-
-              }
-
-              .DestinationBut {
-                width: 100%;
-                // border: 1px red solid;
-
-                position: relative;
-                height: 40vh;
-                padding: 6px 0px;
-
-                .image {
-
-                  width: 650px;
-                  height: 235px;
-                  margin-top: 6px;
-                  cursor: pointer;
-
-                  img {
-                    width: 100%;
-                    height: 100%;
-                  }
-                }
-
-                .title {
-                  position: absolute;
-                  bottom: 15px;
-                  color: #fff;
-                  padding-left: 20px;
-                  width: 200px;
-                }
-
-              }
-
-            }
-
-          }
-
-        }
-      }
-
-
-
-    }
-  }
-}
-
-@media (max-width: 640px) {
-  .header-cout {
-    margin-top: 10rem !important;
-
-    .paragraph {
-      width: 100%;
-      text-align: center;
-
-      p {
-        margin-left: 85px !important;
-        margin-top: 20px;
-
-      }
-    }
-
-    .containers {
-      .citiesCount {
-        .citieDestination {
-
-          flex-direction: column;
-          margin-left: 40px;
-
-          .rightDestination {
-            width: 100%;
-            margin-top: 20px;
 
             .image {
-              width: 530px !important;
-              height: 500px !important;
-              position: relative;
-              right: 25px;
+              width: 350px;
+              height: 477px;
 
               img {
                 width: 100%;
-              }
-            }
-          }
-
-          .laftDestination {
-            .laftDestinationside {
-              .laftDestinationTop {
-                width: 100%;
-                margin-top: 50px;
-
-                .image {
-                  width: 250px !important;
-                  margin-top: 150px;
-                  text-align: center;
-                  height: 300px;
-                  position: relative;
-                  right: 50px;
-
-                  img {
-                    width: 100%;
-
-                  }
-                }
-
-
+                height: 100%;
               }
             }
 
-            .DestinationBut {
-              // width: 100%;
+            .title {
+              top: 360px;
 
-              .image {
-                width: 300px !important;
-                margin-top: 120px;
-                height: 300px;
-                position: relative;
-                right: 120px;
+              // top: 0;
+              width: 200px;
+              // height: x;
+              position: absolute;
+              color:var(--whitecolor);
+              margin-top: 30px;
+              padding-right: 50px;
 
-                img {
-                  width: 100%;
-
-                }
-
-
-              }
             }
           }
         }
       }
-    }
-  }
-}
 
-@media (max-width: 750px) {
-  .header-cout {
-    // margin-top: 10rem !important;
+      .sidetop {
+        .sidetopcont {
 
-    .paragraph {
-      width: 100%;
-      text-align: center;
 
-      p {
-        margin-left: 85px !important;
-        margin-top: 20px;
+          .content1 {
+            width: 100%;
+            height: 100%;
+            margin-top: 30px;
+            position: relative;
+
+            .image {
+              width: 635px;
+              height: 250px;
+              /* margin-left: 20px; */
+              margin-left: 9px;
+              // padding: 0 8px;
+
+              img {
+                width: 100%;
+                height: 100%;
+              }
+            }
+
+            .title {
+
+              bottom: 15px;
+              width: 200px;
+              position: absolute;
+              color:var(--whitecolor);
+              padding-left: 20px;
+
+            }
+          }
+        }
 
       }
-    }
 
-    .containers {
-      .citiesCount {
-        .citieDestination {
-          flex-direction: column;
-          margin-left: 100px;
+      .right {
+        width: 100%;
+        display: flex;
 
-          .rightDestination {
-            width: 100%;
-            margin-top: 20px;
+
+        .content2 {
+          width: 100%;
+          height: 200px;
+          position: relative;
+
+
+          padding: 0 8px;
+
+          .image {
+            width: 310px;
+            height: 215px;
+
+            img {
+              width: 100%;
+              height: 100%;
+
+            }
+          }
+
+          .title {
+
+            bottom: 1px;
+            width: 200px;
             position: absolute;
-            height: 100%;
-            border: red solid 1px !important;
+            color:var(--whitecolor);
+            padding-left: 20px;
 
-            .image {
-              width: 600px !important;
-              height: 500px !important;
-
-              img {
-                width: 100%;
-              }
-            }
-
-            .title {
-              width: 100px;
-              position: relative;
-              top: 20px;
-              // right: 20px;
-              left: 10px;
-
-              margin-top: 20px !important;
-            }
-          }
-
-          .laftDestination {
-            .laftDestinationside {
-              .laftDestinationTop {
-                width: 100%;
-                margin-top: 50px;
-                border: 1px red solid;
-
-                .image {
-                  border: 1px red solid;
-                  width: 270px;
-                  margin-top: 150px;
-                  text-align: center;
-                  height: 300px;
-                  position: relative;
-                  right: 40px;
-
-                  img {
-                    width: 100%;
-
-                  }
-                }
-
-
-              }
-            }
-
-            .DestinationBut {
-              width: 100%;
-
-              .image {
-                width: 555px !important;
-                margin-top: 120px;
-                height: 320px !important;
-                position: relative;
-                right: 40px;
-
-                img {
-                  width: 100%;
-
-                }
-
-
-              }
-            }
           }
         }
       }
+
+      .content3 {
+        width: 100%;
+        height: 200px;
+        position: relative;
+        padding: 0 8px;
+
+        .image {
+
+          width: 310px;
+          height: 215px;
+          margin-right: 80px;
+
+          img {
+            width: 100%;
+            height: 100%;
+          }
+        }
+      }
+
+      .title {
+        position: absolute;
+        bottom: 1px;
+        color:var(--whitecolor);
+        // padding-left: 1px;
+        padding-right: 50px;
+        width: 200px;
+      }
+
+
+
     }
   }
 }
 
-@media (max-width: 850px) {
-  .header-cout {
-    // margin-top: 10rem !important;
+// @media (max-width:640px) {
+//   .sidecontainer {
+//     grid-template-columns: 1fr;
+//     grid-template-rows: .5fr 1.2fr .5fr 1fr .5fr;
 
-    .containers {
-      .citiesCount {
-        .citieDestination {
-          margin-top: 50px;
+//     grid-template-areas: "head"
+//       "side"
+//       "cont1"
+//       " cont2 "
+//       "cont3"
+//       "foot ";
+//   }
 
-          .rightDestination {
-            width: 100%;
-  
-            height: 100%;
-          
-
-            .image {
-              width: 300px !important;
-              height: 450px !important;
-   
-
-              img {
-                height: 100%;
-
-              }
-            }
-
-            .title {
-              width: 100px;
-              position: relative;
-              top: 20px;
-              right: 70px;
-              font-size: 10px;
-              margin-top: 20px !important;
-            }
-          }
-
-          .laftDestination {
+// }
 
 
-            .DestinationBut {
-              width: 100%;
+// @media (max-width: 850px) {
+//   .header {
+//     .headerCount {
+//       // border: 3px rgb(200, 255, 0) solid;
+//       width: 670px;
+//       margin-left: 60px;
+//       height: auto;
 
-              .image {
-                width: 500px !important;
-                margin-top: 120px;
-                height: 280px !important;
+//       .mainheader {
+//         width: 100%;
+//         text-align: center;
+//         // border: 1px rgb(0, 229, 255) solid;
+//         // margin-left: 80px;
 
-                img {
-                  width: 100%;
+//         .paragraph {
+//           width: 100%;
+//           text-align: center;
+//           position: relative;
 
-                }
+//           p {
+//             left: 90px;
+//             border: 1px red solid;
+//             width: 100%;
+//             position: absolute;
 
+//           }
 
-              }
-            }
-          }
-        }
-      }
-    }
-  }
-}
+//         }
+//       }
 
-@media (max-width: 970px) {
-  .header-cout {
-    // margin-top: 10rem !important;
-
-    .containers {
-      .citiesCount {
-        .citieDestination {
-          margin-top: 40px;
-
-          // flex-direction: column;
-          margin-right: 100px;
-
-          .rightDestination {
-            width: 100%;
-            // margin-top: 20px;
-            position: absolute;
-            height: 100%;
-          
-
-            .image {
-               width: 300px;
-              height: 400px !important;
-   
-
-              img {
-                height: 100%;
-
-              }
-            }
-
-            .title {
-              width: 100px;
-              position: relative;
-              top: 20px;
-              right: 70px;
-              font-size: 10px;
-              margin-top: 20px !important;
-            }
-          }
-
-          .laftDestination {
-            .laftDestinationside {
-              .laftDestinationTop {
-                width: 600px;
-                // margin-top: 50px;
-  
+//       .sidecontainer {
+//         flex-direction: column;
+//         border: 3px red solid;
+//         height: auto;
 
 
-                .image {
-    
-                  width: 280px !important;
-                  height: 200px !important;
-                  img {
-                    width: 100%;
-                    // margin-right: 20px;
-                    position: relative;
-                    right: 10px;
+//         .side {
+//           .sidebar {
+//             width: 100%;
+//             margin-top: 30px;
+//             position: relative;
 
-                  }
-                }
+//             .image {
+//               width: 510px !important;
+//               margin-left: 80px;
+//               height: 330px;
+//               border: 1px rgb(140, 255, 0) solid;
 
+//               img {}
+//             }
 
-              }
-            }
+//             .title {
+//               width: 100px;
+//               position: relative;
+//               top: 20px;
+//               left: 100px;
+//               font-size: 10px;
+//               margin-top: 20px !important;
+//             }
+//           }
+//         }
+//       }
 
-            .DestinationBut {
-              width: 580px !important;
+//       .sidetop {
+//         flex-direction: column;
+//         margin-top: 300px;
+//         height: 100vh;
+//         width: 100%;
 
+//         .sidetopcont {
+//           .content1 {
+//             width: 100%;
+//             margin-top: 300px !important;
+//             position: relative;
 
-              .image {
-                width: 300px !important;
-                margin-top: 120px;
-                height: 255px !important;
-  
-                position: relative;
-                right: 30px;
-                bottom: 10px;
-                padding: 15px;
-
-                img {
-                  width: 100%;
-
-                }
-              }
-            }
-          }
-        }
-      }
-    }
-  }
-}
-
-@media (max-width: 1080px) {
-  .header-cout {
-
-
-    .containers {
-      .citiesCount {
-        .citieDestination {
-
-          .rightDestination {
-            width: 100%;
-         
-            height: 100%;
-          
-
-            .image {
-        
-              height: 455px !important;
-   
-
-              img {
-                height: 100%;
-
-              }
-            }
-
-            .title {
-              width: 100px;
-              position: relative;
-              top: 20px;
-              right: 70px;
-              font-size: 10px;
-              margin-top: 20px !important;
-            }
-          }
-
-          .laftDestination {
-            .laftDestinationside {
-              .laftDestinationTop {
+//             .image {
+//               margin-top: 3500px !important;
+//               width: 520px !important;
+//               height: 400px !important;
+//               margin-left: 70px;
+//               border: 2px rgb(0, 255, 85) solid;
            
+//             }
 
-                .image {
-              
-                  width: 285px;
-            
+//             .title {
+//               position: absolute;
+//               bottom: 15px;
+//               color:var(--whitecolor);
+//               padding-left: 20px;
+//               width: 200px;
 
-                  img {
-                    width: 100%;
+//             }
+//           }
+//         }
 
-                  }
-                }
+//       }
 
+//       .right {
+//         flex-direction: column;
+//         margin-top: 30px;
+//         .content2 {
+//           width: 100%;
+//           position: relative;
 
-              }
-            }
+//           .image {
+//             width: 520px !important;
+//             height: 400px !important;
+//             margin-left: 70px;
+//             border: 1px red solid;
 
-            .DestinationBut {
-              width: 100%;
-
-              .image {
-                width: 585px !important;
-                margin-top: 120px;
-                height: 255px !important;
-  
-
-                img {
-                  width: 100%;
-
-                }
-              }
-            }
-          }
-        }
-      }
-    }
-  }
-}
-
-@media (max-width: 1150px) {
-  .header-cout {
-
-
-    .containers {
-      .citiesCount {
-        .citieDestination {
-
-
-          .rightDestination {
-            width: 100%;
-            height: 100%;
-            border: red solid 1px !important;
-
-            .image {
-              width: 330px;
-              height: 470px !important;
-   
-
-              img {
-                height: 100%;
-
-              }
-            }
-
-            .title {
-              width: 100px;
-              position: relative;
-              top: 20px;
-              right: 70px;
-              font-size: 10px;
-              margin-top: 20px !important;
-            }
-          }
-
-          .laftDestination {
-            .laftDestinationside {
-              .laftDestinationTop {
-                margin-left: 25px;
-
-                .image {
-                  width: 300px;
-
-                  img {
-                    width: 100%;
-
-                  }
-                }
-
-
-              }
-            }
-
-            .DestinationBut {
-              width: 100%;
-              margin-left: 25px;
-
-              .image {
-                width: 640px !important;
-                margin-top: 120px;
-                height: 260px !important;
-  
-
-                img {
-                  width: 100%;
-
-                }
-              }
-            }
-          }
-        }
-      }
-    }
-  }
-}
-
-@media (max-width: 1250px) {
-  .header-cout {
-
-    .containers {
-      .citiesCount {
-        .citieDestination {
-
-      
-
-          .rightDestination {
-            width: 100%;
-    
-            height: 100%;
-            border: red solid 1px !important;
-
-            .image {
-              width: 330px;
-              height: 470px !important;
-   
-
-              img {
-                height: 100%;
-
-              }
-            }
-
-            .title {
-              width: 100px;
-              position: relative;
-              top: 20px;
-              right: 70px;
-              font-size: 10px;
-              margin-top: 20px !important;
-            }
-          }
-
-          .laftDestination {
-            .laftDestinationside {
-              .laftDestinationTop {
-              
-                margin-left: 25px;
-
-                .image {
            
-                  width: 300px;
-        
+//           }
 
-                  img {
-                    width: 100%;
+//           .title {
+//             position: absolute;
+//             bottom: 15px;
+//             color:var(--whitecolor);
+//             padding-left: 20px;
+//             width: 200px;
+//           }
+//         }
+//       }
 
-                  }
-                }
+//       .content3 {
+//         width: 100%;
+//         position: relative;
+
+//         .image {
+//           margin-top: 250px;
+//           width: 520px !important;
+//           height: 400px !important;
+//           margin-left: 60px;
+//           border: 2px rgb(136, 0, 255) solid;
+
+//           img {}
+//         }
+//       }
+
+//       .title {
+//         position: absolute;
+//         bottom: 10px;
+//         color:var(--whitecolor);
+//         padding-left: 20px;
+//         width: 200px;
+
+//       }
+
+//     }
+//   }
+// }
+
+// section {
+//   .header {
+//     .header-cout {
+//       width: 100%;
+//       height: 100vh;
+//       margin-top: 100px;
+
+//       p {
+//         width: 70%;
+//         height: 50px;
+//         margin-left: 10PX;
+//       }
+
+//       .paragraph {
+//         h2 {
+//           margin-left: 10PX;
+//         }
+//       }
+
+//       .containers {
+//         .citiesCount {
+//           width: 100%;
+
+//           .citieDestination {
+
+//             height: 85vh !important;
+//             display: flex;
+//             position: relative;
+
+//             gap: 15px;
+
+//             .rightDestination {
+//               width: 35%;
+//               height: 75vh;
+//               position: relative;
+//               // border: 1px red solid !important;
+
+//               .image {
+
+//                 cursor: pointer;
+//                 height: 75vh;
+
+//                 img {
+//                   width: 100%;
+//                   height: 100%;
+//                 }
+//               }
+
+//               .title {
+
+//                 bottom: 15px;
+//                 width: 200px;
+//                 position: absolute;
+//                 color: #fff;
+//                 padding-left: 20px;
+
+//               }
 
 
-              }
-            }
+//             }
 
-            .DestinationBut {
-              width: 100%;
-              margin-left: 25px;
+//             .laftDestination {
+//               width: 65%;
+//               height: 85vh;
 
-              .image {
-                width: 640px !important;
-                margin-top: 120px;
-                height: 260px !important;
-  
 
-                img {
-                  width: 100%;
+//               .laftDestinationside {
+//                 display: flex;
+//                 width: 100%;
+//                 gap: 15px;
 
-                }
-              }
-            }
-          }
-        }
-      }
-    }
-  }
-}
+//                 position: relative;
+
+
+//                 .laftDestinationTop {
+//                   width: 100%;
+
+//                   height: auto;
+
+//                   .image {
+
+//                     cursor: pointer;
+
+
+//                     img {
+//                       width: 100%;
+//                       height: 100%;
+//                     }
+//                   }
+
+//                   .title {
+
+//                     bottom: 15px;
+//                     width: 200px;
+//                     position: absolute;
+//                     color: #fff;
+//                     padding-left: 20px;
+
+//                   }
+
+
+//                 }
+
+
+//               }
+
+//               .DestinationBut {
+//                 width: 100%;
+//                 // border: 1px red solid;
+
+//                 position: relative;
+//                 height: 40vh;
+//                 padding: 6px 0px;
+
+//                 .image {
+
+//                   width: 650px;
+//                   height: 235px;
+//                   margin-top: 6px;
+//                   cursor: pointer;
+
+//                   img {
+//                     width: 100%;
+//                     height: 100%;
+//                   }
+//                 }
+
+//                 .title {
+//                   position: absolute;
+//                   bottom: 15px;
+//                   color: #fff;
+//                   padding-left: 20px;
+//                   width: 200px;
+//                 }
+
+//               }
+
+//             }
+
+//           }
+
+//         }
+//       }
+
+
+
+//     }
+//   }
+// }
+
+// @media (max-width: 640px) {
+//   .header-cout {
+//     margin-top: 10rem !important;
+
+//     .paragraph {
+//       width: 100%;
+//       text-align: center;
+
+//       p {
+//         margin-left: 85px !important;
+//         margin-top: 20px;
+
+//       }
+//     }
+
+//     .containers {
+//       .citiesCount {
+//         .citieDestination {
+
+//           flex-direction: column;
+//           margin-left: 40px;
+
+//           .rightDestination {
+//             width: 100%;
+//             margin-top: 20px;
+
+//             .image {
+//               width: 530px !important;
+//               height: 500px !important;
+//               position: relative;
+//               right: 25px;
+
+//               img {
+//                 width: 100%;
+//               }
+//             }
+//           }
+
+//           .laftDestination {
+//             .laftDestinationside {
+//               .laftDestinationTop {
+//                 width: 100%;
+//                 margin-top: 50px;
+
+//                 .image {
+//                   width: 250px !important;
+//                   margin-top: 150px;
+//                   text-align: center;
+//                   height: 300px;
+//                   position: relative;
+//                   right: 50px;
+
+//                   img {
+//                     width: 100%;
+
+//                   }
+//                 }
+
+
+//               }
+//             }
+
+//             .DestinationBut {
+//               // width: 100%;
+
+//               .image {
+//                 width: 300px !important;
+//                 margin-top: 120px;
+//                 height: 300px;
+//                 position: relative;
+//                 right: 120px;
+
+//                 img {
+//                   width: 100%;
+
+//                 }
+
+
+//               }
+//             }
+//           }
+//         }
+//       }
+//     }
+//   }
+// }
+
+// @media (max-width: 750px) {
+//   .header-cout {
+//     // margin-top: 10rem !important;
+
+//     .paragraph {
+//       width: 100%;
+//       text-align: center;
+
+//       p {
+//         margin-left: 85px !important;
+//         margin-top: 20px;
+
+//       }
+//     }
+
+//     .containers {
+//       .citiesCount {
+//         .citieDestination {
+//           flex-direction: column;
+//           margin-left: 100px;
+
+//           .rightDestination {
+//             width: 100%;
+//             margin-top: 20px;
+//             position: absolute;
+//             height: 100%;
+//             border: red solid 1px !important;
+
+//             .image {
+//               width: 600px !important;
+//               height: 500px !important;
+
+//               img {
+//                 width: 100%;
+//               }
+//             }
+
+//             .title {
+//               width: 100px;
+//               position: relative;
+//               top: 20px;
+//               // right: 20px;
+//               left: 10px;
+
+//               margin-top: 20px !important;
+//             }
+//           }
+
+//           .laftDestination {
+//             .laftDestinationside {
+//               .laftDestinationTop {
+//                 width: 100%;
+//                 margin-top: 50px;
+//                 border: 1px red solid;
+
+//                 .image {
+//                   border: 1px red solid;
+//                   width: 270px;
+//                   margin-top: 150px;
+//                   text-align: center;
+//                   height: 300px;
+//                   position: relative;
+//                   right: 40px;
+
+//                   img {
+//                     width: 100%;
+
+//                   }
+//                 }
+
+
+//               }
+//             }
+
+//             .DestinationBut {
+//               width: 100%;
+
+//               .image {
+//                 width: 555px !important;
+//                 margin-top: 120px;
+//                 height: 320px !important;
+//                 position: relative;
+//                 right: 40px;
+
+//                 img {
+//                   width: 100%;
+
+//                 }
+
+
+//               }
+//             }
+//           }
+//         }
+//       }
+//     }
+//   }
+// }
+
+// @media (max-width: 850px) {
+//   .header-cout {
+//     // margin-top: 10rem !important;
+
+//     .containers {
+//       .citiesCount {
+//         .citieDestination {
+//           margin-top: 50px;
+
+//           .rightDestination {
+//             width: 100%;
+
+//             height: 100%;
+
+
+//             .image {
+//               width: 300px !important;
+//               height: 450px !important;
+
+
+//               img {
+//                 height: 100%;
+
+//               }
+//             }
+
+//             .title {
+//               width: 100px;
+//               position: relative;
+//               top: 20px;
+//               right: 70px;
+//               font-size: 10px;
+//               margin-top: 20px !important;
+//             }
+//           }
+
+//           .laftDestination {
+
+
+//             .DestinationBut {
+//               width: 100%;
+
+//               .image {
+//                 width: 500px !important;
+//                 margin-top: 120px;
+//                 height: 280px !important;
+
+//                 img {
+//                   width: 100%;
+
+//                 }
+
+
+//               }
+//             }
+//           }
+//         }
+//       }
+//     }
+//   }
+// }
+
+// @media (max-width: 970px) {
+//   .header-cout {
+//     // margin-top: 10rem !important;
+
+//     .containers {
+//       .citiesCount {
+//         .citieDestination {
+//           margin-top: 40px;
+
+//           // flex-direction: column;
+//           margin-right: 100px;
+
+//           .rightDestination {
+//             width: 100%;
+//             // margin-top: 20px;
+//             position: absolute;
+//             height: 100%;
+
+
+//             .image {
+//               width: 300px;
+//               height: 400px !important;
+
+
+//               img {
+//                 height: 100%;
+
+//               }
+//             }
+
+//             .title {
+//               width: 100px;
+//               position: relative;
+//               top: 20px;
+//               right: 70px;
+//               font-size: 10px;
+//               margin-top: 20px !important;
+//             }
+//           }
+
+//           .laftDestination {
+//             .laftDestinationside {
+//               .laftDestinationTop {
+//                 width: 600px;
+//                 // margin-top: 50px;
+
+
+
+//                 .image {
+
+//                   width: 280px !important;
+//                   height: 200px !important;
+
+//                   img {
+//                     width: 100%;
+//                     // margin-right: 20px;
+//                     position: relative;
+//                     right: 10px;
+
+//                   }
+//                 }
+
+
+//               }
+//             }
+
+//             .DestinationBut {
+//               width: 580px !important;
+
+
+//               .image {
+//                 width: 300px !important;
+//                 margin-top: 120px;
+//                 height: 255px !important;
+
+//                 position: relative;
+//                 right: 30px;
+//                 bottom: 10px;
+//                 padding: 15px;
+
+//                 img {
+//                   width: 100%;
+
+//                 }
+//               }
+//             }
+//           }
+//         }
+//       }
+//     }
+//   }
+// }
+
+// @media (max-width: 1080px) {
+//   .header-cout {
+
+
+//     .containers {
+//       .citiesCount {
+//         .citieDestination {
+
+//           .rightDestination {
+//             width: 100%;
+
+//             height: 100%;
+
+
+//             .image {
+
+//               height: 455px !important;
+
+
+//               img {
+//                 height: 100%;
+
+//               }
+//             }
+
+//             .title {
+//               width: 100px;
+//               position: relative;
+//               top: 20px;
+//               right: 70px;
+//               font-size: 10px;
+//               margin-top: 20px !important;
+//             }
+//           }
+
+//           .laftDestination {
+//             .laftDestinationside {
+//               .laftDestinationTop {
+
+
+//                 .image {
+
+//                   width: 285px;
+
+
+//                   img {
+//                     width: 100%;
+
+//                   }
+//                 }
+
+
+//               }
+//             }
+
+//             .DestinationBut {
+//               width: 100%;
+
+//               .image {
+//                 width: 585px !important;
+//                 margin-top: 120px;
+//                 height: 255px !important;
+
+
+//                 img {
+//                   width: 100%;
+
+//                 }
+//               }
+//             }
+//           }
+//         }
+//       }
+//     }
+//   }
+// }
+
+// @media (max-width: 1150px) {
+//   .header-cout {
+
+
+//     .containers {
+//       .citiesCount {
+//         .citieDestination {
+
+
+//           .rightDestination {
+//             width: 100%;
+//             height: 100%;
+//             border: red solid 1px !important;
+
+//             .image {
+//               width: 330px;
+//               height: 470px !important;
+
+
+//               img {
+//                 height: 100%;
+
+//               }
+//             }
+
+//             .title {
+//               width: 100px;
+//               position: relative;
+//               top: 20px;
+//               right: 70px;
+//               font-size: 10px;
+//               margin-top: 20px !important;
+//             }
+//           }
+
+//           .laftDestination {
+//             .laftDestinationside {
+//               .laftDestinationTop {
+//                 margin-left: 25px;
+
+//                 .image {
+//                   width: 300px;
+
+//                   img {
+//                     width: 100%;
+
+//                   }
+//                 }
+
+
+//               }
+//             }
+
+//             .DestinationBut {
+//               width: 100%;
+//               margin-left: 25px;
+
+//               .image {
+//                 width: 640px !important;
+//                 margin-top: 120px;
+//                 height: 260px !important;
+
+
+//                 img {
+//                   width: 100%;
+
+//                 }
+//               }
+//             }
+//           }
+//         }
+//       }
+//     }
+//   }
+// }
+
+// @media (max-width: 1250px) {
+//   .header-cout {
+
+//     .containers {
+//       .citiesCount {
+//         .citieDestination {
+
+
+
+//           .rightDestination {
+//             width: 100%;
+
+//             height: 100%;
+//             border: red solid 1px !important;
+
+//             .image {
+//               width: 330px;
+//               height: 470px !important;
+
+
+//               img {
+//                 height: 100%;
+
+//               }
+//             }
+
+//             .title {
+//               width: 100px;
+//               position: relative;
+//               top: 20px;
+//               right: 70px;
+//               font-size: 10px;
+//               margin-top: 20px !important;
+//             }
+//           }
+
+//           .laftDestination {
+//             .laftDestinationside {
+//               .laftDestinationTop {
+
+//                 margin-left: 25px;
+
+//                 .image {
+
+//                   width: 300px;
+
+
+//                   img {
+//                     width: 100%;
+
+//                   }
+//                 }
+
+
+//               }
+//             }
+
+//             .DestinationBut {
+//               width: 100%;
+//               margin-left: 25px;
+
+//               .image {
+//                 width: 640px !important;
+//                 margin-top: 120px;
+//                 height: 260px !important;
+
+
+//                 img {
+//                   width: 100%;
+
+//                 }
+//               }
+//             }
+//           }
+//         }
+//       }
+//     }
+//   }
+// }

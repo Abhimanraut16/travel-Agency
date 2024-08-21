@@ -11,10 +11,10 @@ function Section() {
     <div>
       <Routes>
         <Route path='/' element={<Home />} />
-        <Route path='/alltrip' element={<AllTrip />} />
+        {/* <Route path='/alltrip' element={<AllTrip />} /> */}
         <Route path='/destination' element={<Destination />} />
         <Route path='/blog' element={<Blog />} />
-        <Route path='/contact' element={<ContactUs />} />
+        {/* <Route path='/contact' element={<ContactUs />} /> */}
       </Routes>
     </div>
   )

@@ -1,5 +1,6 @@
 :root {
-  --primarycolor: #00b894;
+  --primarycolor: hsl(26, 93%, 50%);
+  --hovercolor: hsl(26, 90%, 42%);
   --hovercolor: hsl(197, 90%, 42%);
   --whitecolor: hsl(0, 0%, 100%);
   --blackcolor: hsl(0, 0%, 18%);
@@ -15,16 +16,20 @@
   position: relative;
   bottom: 50px;
 }
+.offer .secContainer .paragraph {
+  margin-left: 110px;
+}
 .offer .secContainer .mainContent {
   gap: 1rem;
-  max-width: 92%;
-  margin-left: 30px;
+  max-width: 80%;
+  margin-left: 140px;
 }
 .offer .secContainer .mainContent .singleOffer {
   border-radius: 1rem;
   overflow: hidden;
-  padding: 0.5rem;
-  box-shadow: 2px 8px 2px rgba(178, 178, 178, 0.334);
+  padding: 0.2rem;
+  border: 2px var(--whitecolor) solid;
+  box-shadow: 2px 6px 2px rgba(178, 178, 178, 0.334);
 }
 .offer .secContainer .mainContent .singleOffer .icon {
   font-size: 20px;
@@ -36,8 +41,8 @@
 }
 .offer .secContainer .mainContent .singleOffer .destImage {
   position: relative;
-  height: 250px;
-  width: 100%;
+  height: 200px;
+  width: 90%;
   border-radius: 2px;
   overflow: hidden;
 }
@@ -46,9 +51,9 @@
 }
 .offer .secContainer .mainContent .singleOffer .destImage .discount {
   position: absolute;
-  top: 10px;
+  top: 8px;
   right: 10px;
-  padding: 5px 10px;
+  padding: 4px 6px;
   background: var(--primarycolor);
   color: var(--whitecolor);
   border-radius: 3rem;
@@ -64,10 +69,9 @@
 .offer .secContainer .mainContent .singleOffer .offerBody .price h4 {
   color: var(--blackcolor);
   font-weight: 700;
-  font-size: 1.1rem;
+  font-size: 1rem;
 }
 .offer .secContainer .mainContent .singleOffer .offerBody .price .status {
-  padding: 5px 10px;
   color: var(--hovercolor);
   background-color: var(--grayBg);
   font-size: 14px;
@@ -82,14 +86,14 @@
   gap: 0.5rem;
 }
 .offer .secContainer .mainContent .singleOffer .offerBody .amenities .singleAmenity {
-  padding: 5px 10px;
+  padding: 4px 6px;
   border-radius: 5px;
   background-color: var(--grayBg);
   gap: 0.5rem;
 }
 .offer .secContainer .mainContent .singleOffer .offerBody .btn {
   margin-top: 1rem;
-  width: 100%;
+  width: 80%;
   text-align: center;
   justify-content: center;
   padding: 0.6rem;
@@ -104,52 +108,18 @@
   transform: translateY(-7px);
 }
 
-@media (max-width: 640px) {
-  .secContainer {
-    margin-top: 400px;
-  }
-  .secContainer .secIntro .paragraph {
-    width: 100%;
-    text-align: center;
-  }
-  .secContainer .secIntro .paragraph p {
-    width: 100%;
-    margin-left: 10px !important;
-    margin-top: 20px;
-  }
-  .secContainer .mainContent {
-    width: 100%;
-    right: 70px;
-    position: relative;
-  }
-  .secContainer .mainContent .singleOffer {
-    width: 280px !important;
-  }
-  .secContainer .mainContent .singleOffer .destImage {
-    width: 500px;
-  }
-}
-@media (max-width: 550px) {
-  .secContainer .mainContent {
-    width: 100%;
-    left: 15px;
-    position: relative;
-  }
-  .secContainer .mainContent .singleOffer {
-    width: 400px !important;
-  }
-}
 @media (max-width: 750px) {
   .secContainer {
-    margin-top: 450px;
+    margin-top: 50px;
+    position: relative;
+    right: 100px;
   }
   .secContainer .secIntro .paragraph {
     width: 100%;
-    text-align: center;
+    text-align: left;
   }
   .secContainer .secIntro .paragraph p {
     width: 100%;
-    margin-left: 10px !important;
     margin-top: 30px;
   }
   .secContainer .mainContent {
@@ -163,152 +133,5 @@
   }
   .secContainer .mainContent .singleOffer .destImage {
     width: 500px;
-  }
-}
-@media (max-width: 850px) {
-  .secContainer {
-    margin-top: 330px;
-  }
-  .secContainer .secIntro .paragraph {
-    width: 100%;
-    text-align: center;
-  }
-  .secContainer .secIntro .paragraph p {
-    width: 100%;
-    margin-left: 10px !important;
-    margin-top: 20px;
-  }
-  .secContainer .mainContent {
-    width: 100%;
-    top: 0px;
-    position: relative;
-  }
-  .secContainer .mainContent .singleOffer {
-    width: 280px !important;
-  }
-  .secContainer .mainContent .singleOffer .destImage {
-    width: 500px;
-  }
-}
-@media (max-width: 970px) {
-  .secContainer {
-    margin-top: 130px;
-  }
-  .secContainer .secIntro {
-    width: 100%;
-    position: relative;
-    right: 115px;
-  }
-  .secContainer .secIntro .paragraph {
-    border: 1px red solid;
-  }
-  .secContainer .secIntro .paragraph p {
-    width: 100%;
-    margin-top: 20px;
-  }
-  .secContainer .mainContent {
-    width: 100%;
-    right: 150px;
-    position: relative;
-  }
-  .secContainer .mainContent .singleOffer {
-    width: 280px !important;
-  }
-  .secContainer .mainContent .singleOffer .destImage {
-    width: 500px;
-  }
-}
-@media (max-width: 1080px) {
-  .secContainer {
-    margin-top: 130px;
-  }
-  .secContainer .secIntro {
-    width: 100%;
-    position: relative;
-    left: 50px;
-  }
-  .secContainer .secIntro .paragraph {
-    border: 1px red solid;
-  }
-  .secContainer .secIntro .paragraph p {
-    width: 100%;
-    margin-top: 20px;
-  }
-  .secContainer .mainContent {
-    width: 100%;
-    position: relative;
-  }
-  .secContainer .mainContent .singleOffer {
-    width: 280px !important;
-  }
-  .secContainer .mainContent .singleOffer .destImage {
-    width: 550px !important;
-  }
-  .secContainer .mainContent .singleOffer .destImage img {
-    width: 100%;
-    height: 100%;
-  }
-}
-@media (max-width: 1150px) {
-  .secContainer {
-    margin-top: 130px;
-  }
-  .secContainer .secIntro {
-    width: 100%;
-    position: relative;
-    left: 50px;
-  }
-  .secContainer .secIntro .paragraph {
-    border: 1px red solid;
-  }
-  .secContainer .secIntro .paragraph p {
-    width: 100%;
-    margin-top: 20px;
-  }
-  .secContainer .mainContent {
-    width: 100%;
-    right: 60px;
-    position: relative;
-  }
-  .secContainer .mainContent .singleOffer {
-    width: 330px !important;
-  }
-  .secContainer .mainContent .singleOffer .destImage {
-    width: 600px !important;
-  }
-  .secContainer .mainContent .singleOffer .destImage img {
-    width: 100%;
-    height: 100%;
-  }
-}
-@media (max-width: 1250px) {
-  .secContainer {
-    margin-top: 130px;
-  }
-  .secContainer .secIntro {
-    width: 100%;
-    position: relative;
-  }
-  .secContainer .secIntro .paragraph {
-    border: 1px red solid;
-  }
-  .secContainer .secIntro .paragraph p {
-    width: 100%;
-    margin-top: 20px;
-  }
-  .secContainer .mainContent {
-    width: 100%;
-    right: 0px;
-    position: relative;
-  }
-  .secContainer .mainContent .singleOffer {
-    width: 330px !important;
-  }
-  .secContainer .mainContent .singleOffer .destImage {
-    width: 550px !important;
-  }
-  .secContainer .mainContent .singleOffer .destImage img {
-    width: 100%;
-    height: 100%;
   }
 }/*# sourceMappingURL=offer.css.map */

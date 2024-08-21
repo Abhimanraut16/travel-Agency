@@ -6,6 +6,9 @@ import Offer from '../Offers/Offer'
 import Moment from '../Moments/Moment'
 import HappyTravel from '../HappyTravel/HappyTravel'
 import Destination from '../Destination/Destination'
+import { Carousel } from 'bootstrap'
+import Carous from '../Carousel/Carous'
+// import { Carousel } from 'bootstrap'
 function Home() {
   return (
     <>
@@ -70,6 +73,7 @@ function Home() {
       <Offer />
       <Moment />
       <HappyTravel />
+     <Carous/>
     </>
 
   )

@@ -9,7 +9,7 @@ function Footer() {
             <a href="index.html text" className="footer text-dark">
               <h4>Element City Tour</h4>
             </a>
-            <p>
+            <p cl>
               Lorem ipsum dolor sit amet consectetur, adipisicing elit. Esse nihil quam culpa veniam est ex amet? Provident nulla minus porro?
             </p>
           </div>
@@ -45,7 +45,7 @@ function Footer() {
 
           </div>
         </div>
-        <div className="copyRight">
+        {/* <div className="copyRight">
           <div className="footerrigth">
             <nav className="navbar">
               <div className="container-fluid ">
@@ -55,7 +55,7 @@ function Footer() {
             </nav>
 
           </div>
-        </div>
+        </div> */}
 
       </footer>
     </section>

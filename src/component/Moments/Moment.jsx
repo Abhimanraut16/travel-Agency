@@ -12,7 +12,45 @@ function Moment() {
   return (
     <div>
       <section className='moment'>
-        <div className="secmement">
+
+        <div className="container-xxl py-2">
+          <div className="container">
+
+            <div className="text-center">
+              {/* <h6 className="section-title bg-white text-center text-primary px-3">Testimonial</h6> */}
+              <h4 className="mb-3">Travel Moment</h4>
+              <div className="w-75 ms-5 ps-5">
+                <p className='w-100  ps-5 text-secondary'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi, tempora repellat culpa at ratione saepe illum obcaecati ab corporis beatae itaque placeat consequuntur dicta. Accusantium ipsam aliquam iure ut itaque.</p>
+              </div>
+            </div>
+
+            <div className="owl-carousel testimonial-carousel d-flex position-relative">
+
+              <div className="testimonial-item bg-white text-center  p-4">
+                <div className="d-flex mt-3">
+                  {/* <img className=" rounded-circle shadow p-1 mx-auto mb-0" src={user} style={{ width: 60, height: 60, left: 20 }} /> */}
+                  <video src={vidoe1} controls width="35px"></video>
+                </div>
+              </div>
+              <div className="testimonial-item bg-white text-center  p-4">
+
+                <div className="d-flex  mt-3">
+                  {/* <img className=" rounded-circle shadow p-1 mx-auto mb-0" src={user} style={{ width: 60, height: 60, left: 20 }} /> */}
+                  <video src={vidoe1} controls width="35px"></video>
+                </div>
+              </div>
+              <div className="testimonial-item bg-white text-center  p-4">
+
+                <div className="d-flex mt-3">
+                  {/* <img className=" rounded-circle shadow p-1 mx-auto mb-0" src={user} style={{ width: 60, height: 60, left: 20 }} /> */}
+                  <video src={vidoe1} controls width="35px"></video>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+        {/* <div className="secmement">
           <div className="secmomenttitle">
             <h2 className="secTitlemoment">
               Travel Moments
@@ -21,27 +59,27 @@ function Moment() {
               Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vero quis dolor iure necessitatibus quisquam. Nam quibusdam odio possimus facilis libero.
             </div>
           </div>
-          <div className="videosecg">
+          <div className="videosecg d-flex gap-3 mt-4 w-100">
             <div className="video">
               <div className="videocount">
-                <video src={vidoe1} controls width="35%"></video>
+                <video src={vidoe1} controls width="35px"></video>
               </div>
             </div>
             <div className="video">
               <div className="videocount">
-                <video src={vidoe2} controls width="35%"></video>
+                <video src={vidoe2} controls width="35px"></video>
               </div>
             </div>
             <div className="video">
               <div className="videocount">
-                <video src={vidoe3} controls width="35%"></video>
+                <video src={vidoe3} controls width="35px"></video>
               </div>
             </div>
 
           </div>
 
 
-        </div>
+        </div> */}
 
         <div className="bestMoment">
           <div className="momentView">

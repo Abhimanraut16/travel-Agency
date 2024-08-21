@@ -106,7 +106,7 @@ function Offer() {
             <h2 className="secTitle px-0">
               Popular Cities Tours
             </h2>
-            <p>
+            <p className='text-secondary'>
               Lorem, ipsum dolor sit amet consectetur adipisicing elit. Atque quo cupiditate beatae recusandae facere maiores, sit temporibus similique dignissimos illo.
             </p>
           </div>
@@ -144,11 +144,6 @@ function Offer() {
                       <div className="singleAmenity flex">
                         <MdBathtub className='icon' />
                         <small>Trip</small>
-                      </div>
-
-                      <div className="singleAmenity flex">
-                        <FaWifi className='icon' />
-                        <small>Wi-Fi</small>
                       </div>
 
                       <div className="singleAmenity flex">

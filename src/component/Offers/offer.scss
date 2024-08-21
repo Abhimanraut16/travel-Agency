@@ -1,7 +1,7 @@
 :root {
-  // --primarycolor: hsl(26, 93%, 50%);
-  // --hovercolor: hsl(26, 90%, 42%);
-  --primarycolor: #00b894;
+  --primarycolor: hsl(26, 93%, 50%);
+  --hovercolor: hsl(26, 90%, 42%);
+  // --primarycolor: #00b894;
   --hovercolor: hsl(197, 90%, 42%);
   --whitecolor: hsl(0, 0%, 100%);
   --blackcolor: hsl(0, 0%, 18%);
@@ -13,21 +13,28 @@
   /* --box-shadow: 2px 8px 2px rgba(178, 178, 178, 0.334); */
 }
 
+
 .offer {
-position: relative;
-bottom: 50px;
+  position: relative;
+  bottom: 50px;
 
   .secContainer {
+    .paragraph {
+      margin-left: 110px;
+    }
+
     .mainContent {
       gap: 1rem;
-      max-width: 92%;
-      margin-left: 30px;
+      max-width: 80%;
+      margin-left: 140px;
+
 
       .singleOffer {
         border-radius: 1rem;
         overflow: hidden;
-        padding: .5rem;
-        box-shadow: 2px 8px 2px rgba(178, 178, 178, 0.334);
+        padding: .2rem;
+        border: 2px var(--whitecolor) solid;
+        box-shadow: 2px 6px 2px rgba(178, 178, 178, 0.334);
 
         .icon {
           font-size: 20px;
@@ -41,8 +48,8 @@ bottom: 50px;
 
         .destImage {
           position: relative;
-          height: 250px;
-          width: 100%;
+          height: 200px;
+          width: 90%;
           border-radius: 2px;
           overflow: hidden;
 
@@ -52,9 +59,9 @@ bottom: 50px;
 
           .discount {
             position: absolute;
-            top: 10px;
+            top: 8px;
             right: 10px;
-            padding: 5px 10px;
+            padding: 4px 6px;
             background: var(--primarycolor);
             color: var(--whitecolor);
             border-radius: 3rem;
@@ -72,11 +79,11 @@ bottom: 50px;
             h4 {
               color: var(--blackcolor);
               font-weight: 700;
-              font-size: 1.1rem;
+              font-size: 1rem;
             }
 
             .status {
-              padding: 5px 10px;
+              // padding: 2px 4px;
               color: var(--hovercolor);
               background-color: var(--grayBg);
               font-size: 14px;
@@ -93,7 +100,7 @@ bottom: 50px;
             gap: .5rem;
 
             .singleAmenity {
-              padding: 5px 10px;
+              padding: 4px 6px;
               border-radius: 5px;
               background-color: var(--grayBg);
               gap: .5rem;
@@ -102,7 +109,7 @@ bottom: 50px;
 
           .btn {
             margin-top: 1rem;
-            width: 100%;
+            width: 80%;
             text-align: center;
             justify-content: center;
             padding: .6rem;
@@ -126,79 +133,83 @@ bottom: 50px;
   }
 }
 
-@media (max-width:640px) {
-  .secContainer {
-    margin-top: 400px;
+// @media (max-width:640px) {
+//   .secContainer {
+//     margin-top: 400px;
 
-    .secIntro {
-      .paragraph {
-        width: 100%;
-        text-align: center;
+//     .secIntro {
+//       .paragraph {
+//         width: 100%;
+//         text-align: center;
 
-        p {
-          width: 100%;
-          margin-left: 10px !important;
-          margin-top: 20px;
+//         p {
+//           width: 100%;
+//           margin-left: 10px !important;
+//           margin-top: 20px;
 
-        }
-      }
-    }
+//         }
+//       }
+//     }
 
-    .mainContent {
-      width: 100%;
-      right: 70px;
-      position: relative;
+//     .mainContent {
+//       width: 100%;
+//       right: 70px;
+//       position: relative;
 
-      .singleOffer {
-        width: 280px !important;
-
-
-        .destImage {
-          width: 500px;
+//       .singleOffer {
+//         width: 280px !important;
 
 
+//         .destImage {
+//           width: 500px;
 
 
-        }
-      }
-
-    }
-
-  }
-}
 
 
-@media (max-width:550px) {
-  .secContainer {
-    .mainContent {
-      width: 100%;
-      // right: 70px;
-      left: 15px;
-      position: relative;
+//         }
+//       }
 
-      .singleOffer {
-        width: 400px !important;
+//     }
 
-      }
+//   }
+// }
 
-    }
 
-  }
-}
+// @media (max-width:550px) {
+//   .secContainer {
+//     .mainContent {
+//       width: 100%;
+//       // right: 70px;
+//       left: 15px;
+//       position: relative;
+
+//       .singleOffer {
+//         width: 400px !important;
+
+//       }
+
+//     }
+
+//   }
+// }
 
 
 @media (max-width:750px) {
   .secContainer {
-    margin-top: 450px;
+    margin-top: 50px;
+    // margin-right: 60px;
+    // width: 100%;
+    // border: 1px red solid;
+    position: relative;
+    right: 100px;
 
     .secIntro {
       .paragraph {
         width: 100%;
-        text-align: center;
-
+        text-align: left;
         p {
           width: 100%;
-          margin-left: 10px !important;
+          // margin-left: 10px !important;
           margin-top: 30px;
 
         }
@@ -230,232 +241,232 @@ bottom: 50px;
 }
 
 
-@media (max-width:850px) {
-  .secContainer {
-    margin-top: 330px;
+// @media (max-width:850px) {
+//   .secContainer {
+//     margin-top: 330px;
 
-    .secIntro {
-      .paragraph {
-        width: 100%;
-        text-align: center;
+//     .secIntro {
+//       .paragraph {
+//         width: 100%;
+//         text-align: center;
 
-        p {
-          width: 100%;
-          margin-left: 10px !important;
-          margin-top: 20px;
+//         p {
+//           width: 100%;
+//           margin-left: 10px !important;
+//           margin-top: 20px;
 
-        }
-      }
-    }
+//         }
+//       }
+//     }
 
-    .mainContent {
-      width: 100%;
-      top: 0px;
-      position: relative;
+//     .mainContent {
+//       width: 100%;
+//       top: 0px;
+//       position: relative;
 
-      .singleOffer {
-        width: 280px !important;
+//       .singleOffer {
+//         width: 280px !important;
 
 
-        .destImage {
-          width: 500px;
+//         .destImage {
+//           width: 500px;
 
 
 
 
-        }
-      }
+//         }
+//       }
 
-    }
+//     }
 
-  }
-}
+//   }
+// }
 
 
-@media (max-width:970px) {
-  .secContainer {
-    margin-top: 130px;
+// @media (max-width:970px) {
+//   .secContainer {
+//     margin-top: 130px;
 
-    .secIntro {
-      width: 100%;
-      position: relative;
-      right: 115px;
+//     .secIntro {
+//       width: 100%;
+//       position: relative;
+//       right: 115px;
 
-      .paragraph {
-        border: 1px red solid;
+//       .paragraph {
+//         // border: 1px red solid;
 
-        p {
-          width: 100%;
-          // margin-left: 10px !important;
-          margin-top: 20px;
+//         p {
+//           width: 100%;
+//           // margin-left: 10px !important;
+//           margin-top: 20px;
 
-        }
-      }
-    }
+//         }
+//       }
+//     }
 
-    .mainContent {
-      width: 100%;
-      right: 150px;
-      position: relative;
+//     .mainContent {
+//       width: 100%;
+//       right: 150px;
+//       position: relative;
 
-      .singleOffer {
-        width: 280px !important;
+//       .singleOffer {
+//         width: 280px !important;
 
 
-        .destImage {
-          width: 500px;
+//         .destImage {
+//           width: 500px;
 
 
 
 
-        }
-      }
+//         }
+//       }
 
-    }
+//     }
 
-  }
-}
+//   }
+// }
 
 
-@media (max-width:1080px) {
-  .secContainer {
-    margin-top: 130px;
+// @media (max-width:1080px) {
+//   .secContainer {
+//     margin-top: 130px;
 
-    .secIntro {
-      width: 100%;
-      position: relative;
-      // right: 115px;
-      left: 50px;
+//     .secIntro {
+//       width: 100%;
+//       position: relative;
+//       // right: 115px;
+//       left: 50px;
 
-      .paragraph {
-        border: 1px red solid;
+//       .paragraph {
+//         // border: 1px red solid;
 
-        p {
-          width: 100%;
-          // margin-left: 10px !important;
-          margin-top: 20px;
+//         p {
+//           width: 100%;
+//           // margin-left: 10px !important;
+//           margin-top: 20px;
 
-        }
-      }
-    }
+//         }
+//       }
+//     }
 
-    .mainContent {
-      width: 100%;
-      // right: 150px;
-      position: relative;
+//     .mainContent {
+//       width: 100%;
+//       // right: 150px;
+//       position: relative;
 
-      .singleOffer {
-        width: 280px !important;
+//       .singleOffer {
+//         width: 280px !important;
 
 
-        .destImage {
-          width: 550px !important;
+//         .destImage {
+//           width: 550px !important;
 
-          img {
-            width: 100%;
-            height: 100%;
-          }
+//           img {
+//             width: 100%;
+//             height: 100%;
+//           }
 
 
-        }
-      }
+//         }
+//       }
 
-    }
+//     }
 
-  }
-}
+//   }
+// }
 
-@media (max-width:1150px) {
-  .secContainer {
-    margin-top: 130px;
+// @media (max-width:1150px) {
+//   .secContainer {
+//     margin-top: 130px;
 
-    .secIntro {
-      width: 100%;
-      position: relative;
-      // right: 115px;
-      left: 50px;
+//     .secIntro {
+//       width: 100%;
+//       position: relative;
+//       // right: 115px;
+//       left: 50px;
 
-      .paragraph {
-        border: 1px red solid;
+//       .paragraph {
+//         // border: 1px red solid;
 
-        p {
-          width: 100%;
-          // margin-left: 10px !important;
-          margin-top: 20px;
+//         p {
+//           width: 100%;
+//           // margin-left: 10px !important;
+//           margin-top: 20px;
 
-        }
-      }
-    }
+//         }
+//       }
+//     }
 
-    .mainContent {
-      width: 100%;
-      right: 60px;
-      position: relative;
+//     .mainContent {
+//       width: 100%;
+//       right: 60px;
+//       position: relative;
 
-      .singleOffer {
-        width: 330px !important;
+//       .singleOffer {
+//         width: 330px !important;
 
 
-        .destImage {
-          width: 600px !important;
+//         .destImage {
+//           width: 600px !important;
 
-          img {
-            width: 100%;
-            height: 100%;
-          }
+//           img {
+//             width: 100%;
+//             height: 100%;
+//           }
 
 
-        }
-      }
+//         }
+//       }
 
-    }
+//     }
 
-  }
-}
+//   }
+// }
 
-@media (max-width:1250px) {
-  .secContainer {
-    margin-top: 130px;
+// @media (max-width:1250px) {
+//   .secContainer {
+//     margin-top: 130px;
 
-    .secIntro {
-      width: 100%;
-      position: relative;
-   
+//     .secIntro {
+//       width: 100%;
+//       position: relative;
 
-      .paragraph {
-        border: 1px red solid;
 
-        p {
-          width: 100%;
+//       .paragraph {
+//         // border: 1px red solid;
 
-          margin-top: 20px;
+//         p {
+//           width: 100%;
 
-        }
-      }
-    }
+//           margin-top: 20px;
 
-    .mainContent {
-      width: 100%;
-      right: 0px;
-      position: relative;
+//         }
+//       }
+//     }
 
-      .singleOffer {
-        width: 330px !important;
+//     .mainContent {
+//       width: 100%;
+//       right: 0px;
+//       position: relative;
 
+//       .singleOffer {
+//         width: 330px !important;
 
-        .destImage {
-          width: 550px !important;
 
-          img {
-            width: 100%;
-            height: 100%;
-          }
+//         .destImage {
+//           width: 550px !important;
 
+//           img {
+//             width: 100%;
+//             height: 100%;
+//           }
 
-        }
-      }
 
-    }
+//         }
+//       }
 
-  }
-}
+//     }
+
+//   }
+// }
