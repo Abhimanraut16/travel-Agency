@@ -69,11 +69,6 @@ function Destination() {
                   distinctio voluptatibus laboriosam ratione </p>
               </div>
             </div>
-            <div className="text-center wow fadeInUp" data-wow-delay="0.1s">
-              {/* <h6 className="section-title bg-white text-center text-primary px-3">Destination</h6> */}
-              {/* <h1 className="mb-5">Popular Destination</h1> */}
-
-            </div>
             <div className="row g-3 mt-5">
               <div className="col-lg-5 col-md-6 " data-wow-delay="0.7s" style={{ minHeight: 350 }}>
                 <a className="position-relative d-block h-100 overflow-hidden" href>
@@ -85,29 +80,29 @@ function Destination() {
               </div>
               <div className="col-lg-7 col-md-6">
                 <div className="row g-3">
-                
+
                   <div className="col-lg-6 col-md-12 wow zoomIn" data-wow-delay="0.3s">
                     <a className="position-relative d-block overflow-hidden" href>
-                      <img className="img-fluid" src={citie4} alt />
+                      <img className="img-fluid" src={citie3} alt />
 
-                      <div className="text-light text-light fw-bold position-absolute bottom-0 end-0 m-3 py-1 px-2">Malaysia
+                      <div className="text-light text-light fw-bold position-absolute bottom-0 end-0 m-3 py-1 px-2">England
                         <h5>(5+ trip)</h5>
                       </div>
                     </a>
                   </div>
                   <div className="col-lg-6 col-md-12 wow zoomIn" data-wow-delay="0.5s">
                     <a className="position-relative d-block overflow-hidden" href>
-                      <img className="img-fluid" src={citie3} alt />
+                      <img className="img-fluid" src={citie4} alt />
 
-                      <div className="text-light text-light fw-bold position-absolute bottom-0 end-0 m-3 py-1 px-2">Australia
+                      <div className="text-light text-light fw-bold position-absolute bottom-0 end-0 m-3 py-1 px-2">Thailand
                         <h5>(5+ trip)</h5>
                       </div>
                     </a>
                   </div>
-                    <div className="col-lg-12 col-md-12 wow zoomIn" data-wow-delay="0.1s">
+                  <div className="col-lg-12 col-md-12 wow zoomIn" data-wow-delay="0.1s">
                     <a className="position-relative d-block overflow-hidden" href>
-                      <img className="img-fluid" src={citie4} alt />
-                      <div className="text-light fw-bold position-absolute bottom-0 end-0 m-3 py-1 px-2">Thailand
+                      <img className="img-fluid" src={citie2} alt />
+                      <div className="text-light fw-bold position-absolute bottom-0 end-0 m-3 py-1 px-2">Australia
                         <h5>(5+ trip)</h5>
                       </div>
 
@@ -120,153 +115,6 @@ function Destination() {
             </div>
           </div>
         </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-        {/* <div className="headerCount">
-          <div className="mainheader">
-            <div classname="paragraph">
-              <h2>Best cities to visit</h2>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus quis neque aliquid labore
-                reprehenderit
-                distinctio voluptatibus laboriosam ratione asperiores earum?</p>
-            </div>
-          </div>
-
-          <div className="sidecontainer">
-            <div className="side">
-              <div className="sidebar">
-                <div className="image">
-                  <img src={citie1} alt />
-                </div>
-                <div className="title">
-                  <h3>France</h3>
-                  <h5>(5+ trip)</h5>
-                </div>
-              </div>
-            </div>
-
-
-
-            <div className="sidetop">
-              <div className="sidetopcont">
-
-
-                <div className="right">
-                  <div className="content2">
-                    <div className="image">
-                      <img src={citie4} alt="" />
-                    </div>
-                    <div className="title">
-                        <h4>Thailand</h4>
-                        <h6>(5+ trip)</h6>
-                      </div>
-                  </div>
-
-
-                  <div className="content3">
-                    <div className="image">
-                      <img src={citie2} alt="" />
-                    </div>
-                    <div className="title">
-                      <h4>Australia</h4>
-                      <h6>(5+ trip)</h6>
-                    </div>
-                  </div>
-                </div>
-
-
-                <div className="content1">
-                  <div className="image">
-                    <img src={citie3} alt="" />
-                  </div>
-
-                  <div className="title">
-                        <h4>England</h4>
-                        <h6>(5+ trip)</h6>
-                      </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div> */}
-
-
-        {/* <div className="header-cout">
-          <div className="paragraph">
-            <h2>Best cities to visit</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus quis neque aliquid labore reprehenderit distinctio voluptatibus laboriosam ratione asperiores earum?</p>
-          </div>
-          <div className="containers">
-            <div className="citiesCount">
-              <div className="citieDestination">
-                <div className="rightDestination">
-                  <div className="image">
-                    <img src={citie1} alt="" />
-                  </div>
-                  <div className="title">
-                    <h3>France</h3>
-                    <h5>(5+ trip)</h5>
-                  </div>
-                </div>
-                <div className="laftDestination">
-                  <div className="laftDestinationside">
-                    <div className="laftDestinationTop">
-                      <div className="image">
-                        <img src={citie3} alt="" />
-
-                      </div>
-                      <div className="title">
-                        <h3>England</h3>
-                        <h5>(5+ trip)</h5>
-                      </div>
-                    </div>
-                    <div className="laftDestinationTop">
-                      <div className="image">
-                        <img src={citie4} alt="" />
-                      </div>
-                      <div className="title">
-                        <h3>Thailand</h3>
-                        <h5>(5+ trip)</h5>
-                      </div>
-                    </div>
-                  </div>
-                  
-                  <div className="DestinationBut">
-                    <div className="image">
-                      <img src={citie2} alt="" />
-                    </div>
-                    <div className="title">
-                      <h3>Australia</h3>
-                      <h5>(5+ trip)</h5>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div> */}
-
       </div>
     </section>
 
